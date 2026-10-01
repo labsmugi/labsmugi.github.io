@@ -31,12 +31,14 @@
   <header><div class="mark">م</div><strong>Ezan Vakti</strong></header>
 
   <h1>Gizlilik Politikası</h1>
-  <p class="muted">Son güncelleme: <code>22 Eylül 2026</code></p>
+  <p class="muted">Son güncelleme: <code>2 Ekim 2026</code></p>
 
   <div class="card">
-    <strong>Ezan Vakti hiçbir kişisel veri toplamaz</strong>, sunucularımıza göndermez ve üçüncü
-    taraflarla paylaşmaz. Uygulamanın sunucusu, kullanıcı hesabı, analiz aracı veya reklam
-    altyapısı yoktur.
+    <strong>Ezan Vakti'de reklam yoktur, kullanıcı hesabı yoktur ve sizi tanımlayan
+    hiçbir kişisel veri toplanmaz.</strong> Uygulama içeriği (namaz vakitleri, Kur'an,
+    hadis, dua) tamamen cihazınızda çalışır. Uygulamayı iyileştirmek için Google
+    Firebase üzerinden <em>isimsiz</em> kullanım ve çökme verisi topluyoruz; ayrıntısı
+    aşağıda.
   </div>
 
   <h2>Konum</h2>
@@ -49,12 +51,31 @@
   <p>Ayarlarınız, yer imleriniz, favorileriniz, zikir istatistikleriniz ve okuma konumunuz
      yalnızca cihazınızda tutulur ve uygulamayı sildiğinizde silinir.</p>
 
+  <h2>Firebase ile toplanan veriler</h2>
+  <p>Uygulamada Google Firebase'in şu hizmetleri kullanılır: <strong>Analytics</strong> (hangi
+     bölümlerin kullanıldığı), <strong>Crashlytics</strong> (çökme raporları),
+     <strong>Performance</strong> (açılış ve ekran hızları) ve <strong>Remote Config</strong>
+     (uygulama ayarlarının güncellenmesi). Toplanan veriler:</p>
+  <ul>
+    <li>Uygulama örneği kimliği (cihazınıza değil, uygulama kurulumuna ait rastgele bir numara)</li>
+    <li>Hangi ekranların açıldığı ve hangi özelliklerin kullanıldığı</li>
+    <li>Cihaz modeli, iOS sürümü, uygulama sürümü ve dil</li>
+    <li>IP adresinden türetilen şehir düzeyinde yaklaşık konum</li>
+    <li>Çökme kayıtları ve performans ölçümleri</li>
+  </ul>
+  <p>Bu verilerin hiçbiri adınız, e-postanız veya başka bir kimlik bilgisiyle
+     ilişkilendirilmez; <strong>reklam amacıyla kullanılmaz</strong> ve veri simsarlarıyla
+     paylaşılmaz. Uygulamada reklam SDK'sı ve IDFA (reklam tanımlayıcısı) bulunmaz.
+     Konum izniyle aldığımız <em>hassas</em> konumunuz Firebase'e gönderilmez — o yalnızca
+     cihazda hesaplama için kullanılır.</p>
+
   <h2>Bildirimler</h2>
   <p>Ezan vakti ve hatırlatma bildirimleri cihazınızda yerel olarak oluşturulur; hiçbir
      sunucuya bağlanmaz.</p>
 
   <h2>Üçüncü taraflar & çocuklar</h2>
-  <p>Uygulama üçüncü taraf reklam, analiz veya takip SDK'sı içermez. Her yaş için uygundur (4+).</p>
+  <p>Uygulama <strong>reklam SDK'sı ve takip (tracking) içermez</strong>; yalnızca yukarıda
+     açıklanan Firebase hizmetlerini kullanır. Her yaş için uygundur (4+).</p>
 
   <h2>İletişim</h2>
   <p>Sorularınız için: <a href="mailto:labsmugi@gmail.com">labsmugi@gmail.com</a> · MuGi Labs</p>
@@ -62,11 +83,16 @@
   <hr>
 
   <h1>Privacy Policy (EN)</h1>
-  <p>Ezan Vakti collects no personal data, has no server, account, analytics or ads. Location is used
-     only on-device for qibla and prayer times; your city name may be resolved via Apple's geocoding
-     (subject to Apple's policy) and is never stored or transmitted by us. Settings, bookmarks,
-     favorites and statistics stay on your device and are removed when you delete the app.
-     Notifications are local. Suitable for all ages (4+).</p>
+  <p>Ezan Vakti has <strong>no ads, no accounts and collects no personally identifying data</strong>.
+     All content works on-device. We use Google Firebase (Analytics, Crashlytics, Performance,
+     Remote Config) to collect <em>anonymous</em> usage and crash data: a random app-instance ID,
+     which screens are opened, device model and OS version, approximate city-level location derived
+     from IP, crash logs and performance metrics. None of it is linked to your identity, used for
+     advertising or sold to data brokers; the app contains no ad SDK and does not use the IDFA.
+     Your precise location is used only on-device for qibla and prayer times and is never sent to
+     Firebase; your city name may be resolved via Apple's geocoding (subject to Apple's policy).
+     Settings, bookmarks, favorites and statistics stay on your device and are removed when you
+     delete the app. Notifications are local. Suitable for all ages (4+).</p>
   <p class="muted">Contact: <a href="mailto:labsmugi@gmail.com">labsmugi@gmail.com</a> · MuGi Labs</p>
 </div>
 </body>
