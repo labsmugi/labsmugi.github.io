@@ -31,7 +31,7 @@
   <header><div class="mark">م</div><strong>Ezan Vakti</strong></header>
 
   <h1>Gizlilik Politikası</h1>
-  <p class="muted">Son güncelleme: <code>2 Ekim 2026</code></p>
+  <p class="muted">Son güncelleme: <code>22 Ekim 2026</code> · iOS ve Android</p>
 
   <div class="card">
     <strong>Ezan Vakti'de reklam yoktur, kullanıcı hesabı yoktur ve sizi tanımlayan
@@ -42,10 +42,19 @@
   </div>
 
   <h2>Konum</h2>
-  <p>Konumunuz yalnızca cihazınızda kıble yönünü ve namaz vakitlerini hesaplamak için kullanılır.
-     Şehir adını göstermek için konumunuz Apple'ın konum servisine (ters coğrafi kodlama)
-     iletilebilir; bu işlem Apple'ın gizlilik politikasına tabidir. Konumunuz tarafımızca
-     saklanmaz veya iletilmez.</p>
+  <p>Konumunuz kıble yönünü ve namaz vakitlerini hesaplamak için cihazınızda kullanılır.
+     Konumunuz tarafımızca saklanmaz ve bize ait hiçbir sunucuya gönderilmez. Konum yalnızca
+     şu durumlarda işletim sisteminin veya harita sağlayıcısının servisine iletilir:</p>
+  <ul>
+    <li><strong>Şehir adı:</strong> konumunuzun şehir adına çevrilmesi için iOS'ta Apple'ın,
+        Android'de Google'ın konum servisi (ters coğrafi kodlama) kullanılır.</li>
+    <li><strong>Yakın Camiler:</strong> bu ekranı açtığınızda yakındaki camileri bulmak için
+        konumunuz iOS'ta Apple Haritalar'a, Android'de OpenStreetMap'in açık Overpass sunucularına
+        (overpass-api.de, overpass.private.coffee) gönderilir. Android'de harita görüntüsü
+        OpenStreetMap harita sunucularından yüklenir. Bu sorgularda hesap veya kimlik bilgisi
+        gönderilmez.</li>
+  </ul>
+  <p>Bu işlemler ilgili sağlayıcının (Apple, Google, OpenStreetMap Vakfı) gizlilik politikasına tabidir.</p>
 
   <h2>Cihazda saklanan bilgiler</h2>
   <p>Ayarlarınız, yer imleriniz, favorileriniz, zikir istatistikleriniz ve okuma konumunuz
@@ -53,21 +62,26 @@
 
   <h2>Firebase ile toplanan veriler</h2>
   <p>Uygulamada Google Firebase'in şu hizmetleri kullanılır: <strong>Analytics</strong> (hangi
-     bölümlerin kullanıldığı), <strong>Crashlytics</strong> (çökme raporları),
-     <strong>Performance</strong> (açılış ve ekran hızları) ve <strong>Remote Config</strong>
+     bölümlerin kullanıldığı) ve <strong>Crashlytics</strong> (çökme raporları); iOS sürümünde
+     ayrıca <strong>Performance</strong> (açılış ve ekran hızları) ve <strong>Remote Config</strong>
      (uygulama ayarlarının güncellenmesi). Toplanan veriler:</p>
   <ul>
     <li>Uygulama örneği kimliği (cihazınıza değil, uygulama kurulumuna ait rastgele bir numara)</li>
     <li>Hangi ekranların açıldığı ve hangi özelliklerin kullanıldığı</li>
-    <li>Cihaz modeli, iOS sürümü, uygulama sürümü ve dil</li>
+    <li>Cihaz modeli, işletim sistemi (iOS / Android) sürümü, uygulama sürümü ve dil</li>
     <li>IP adresinden türetilen şehir düzeyinde yaklaşık konum</li>
     <li>Çökme kayıtları ve performans ölçümleri</li>
   </ul>
   <p>Bu verilerin hiçbiri adınız, e-postanız veya başka bir kimlik bilgisiyle
      ilişkilendirilmez; <strong>reklam amacıyla kullanılmaz</strong> ve veri simsarlarıyla
-     paylaşılmaz. Uygulamada reklam SDK'sı ve IDFA (reklam tanımlayıcısı) bulunmaz.
+     paylaşılmaz. Uygulamada reklam SDK'sı yoktur; reklam tanımlayıcısı (iOS'ta IDFA, Android'de
+     Reklam Kimliği) toplanmaz.
      Konum izniyle aldığımız <em>hassas</em> konumunuz Firebase'e gönderilmez — o yalnızca
      cihazda hesaplama için kullanılır.</p>
+
+  <h2>Bağış</h2>
+  <p>İsteğe bağlı bağışlar iOS'ta Apple App Store, Android'de Google Play üzerinden yapılır.
+     Ödeme bilgileriniz bu platformlarca işlenir; bize kart veya kimlik bilgisi ulaşmaz.</p>
 
   <h2>Bildirimler</h2>
   <p>Ezan vakti ve hatırlatma bildirimleri cihazınızda yerel olarak oluşturulur; hiçbir
@@ -75,7 +89,7 @@
 
   <h2>Üçüncü taraflar & çocuklar</h2>
   <p>Uygulama <strong>reklam SDK'sı ve takip (tracking) içermez</strong>; yalnızca yukarıda
-     açıklanan Firebase hizmetlerini kullanır. Her yaş için uygundur (4+).</p>
+     açıklanan hizmetlerle (Firebase, konum/harita servisleri, uygulama mağazası) veri paylaşır. Her yaş için uygundur (4+).</p>
 
   <h2>İletişim</h2>
   <p>Sorularınız için: <a href="mailto:labsmugi@gmail.com">labsmugi@gmail.com</a> · MuGi Labs</p>
@@ -83,14 +97,18 @@
   <hr>
 
   <h1>Privacy Policy (EN)</h1>
-  <p>Ezan Vakti has <strong>no ads, no accounts and collects no personally identifying data</strong>.
-     All content works on-device. We use Google Firebase (Analytics, Crashlytics, Performance,
-     Remote Config) to collect <em>anonymous</em> usage and crash data: a random app-instance ID,
+  <p>Applies to the iOS and Android apps. Ezan Vakti has <strong>no ads, no accounts and collects no personally identifying data</strong>.
+     All content works on-device. We use Google Firebase (Analytics and Crashlytics; on iOS also
+     Performance and Remote Config) to collect <em>anonymous</em> usage and crash data: a random app-instance ID,
      which screens are opened, device model and OS version, approximate city-level location derived
      from IP, crash logs and performance metrics. None of it is linked to your identity, used for
-     advertising or sold to data brokers; the app contains no ad SDK and does not use the IDFA.
-     Your precise location is used only on-device for qibla and prayer times and is never sent to
-     Firebase; your city name may be resolved via Apple's geocoding (subject to Apple's policy).
+     advertising or sold to data brokers; the app contains no ad SDK and does not collect the IDFA or the Android Advertising ID.
+     Your precise location is used on-device for qibla and prayer times, is never stored by us and is
+     never sent to Firebase. Your city name is resolved via Apple's (iOS) or Google's (Android)
+     geocoding service. When you open Nearby Mosques, your location is sent to Apple Maps (iOS) or to
+     OpenStreetMap's public Overpass servers (Android, overpass-api.de / overpass.private.coffee),
+     and Android map tiles are loaded from OpenStreetMap; no account or identity data is included.
+     Optional tips are processed by the App Store or Google Play; we never receive payment details.
      Settings, bookmarks, favorites and statistics stay on your device and are removed when you
      delete the app. Notifications are local. Suitable for all ages (4+).</p>
   <p class="muted">Contact: <a href="mailto:labsmugi@gmail.com">labsmugi@gmail.com</a> · MuGi Labs</p>
