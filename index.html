@@ -3,43 +3,90 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MuGi Labs — Ezan Vakti</title>
+<title>MuGi Labs</title>
+<meta name="description" content="MuGi Labs: Ezan Vakti ve Wordmill uygulamaları. Destek ve gizlilik politikaları.">
 <style>
-  :root { --bg:#f7f7f6; --card:#fff; --text:#1a1a1a; --muted:#6b6b6b; --accent:#1b7a5f; --line:#e6e6e3; }
+  :root {
+    --bg:#f6f5f2; --card:#ffffff; --text:#1c1d21; --muted:#6c6a66; --line:#e7e4de;
+    --link:#2e3a6b; --chip:#efece6;
+  }
   @media (prefers-color-scheme: dark) {
-    :root { --bg:#0f1211; --card:#171b1a; --text:#eaeae7; --muted:#9a9a95; --accent:#4fbf9a; --line:#262b29; }
+    :root { --bg:#111214; --card:#1a1c20; --text:#eeece8; --muted:#9b9893; --line:#2a2d33;
+            --link:#a7b6e6; --chip:#24272d; }
   }
   * { box-sizing:border-box; }
   body { margin:0; background:var(--bg); color:var(--text);
-         font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
-  .wrap { max-width:720px; margin:0 auto; padding:48px 20px 64px; }
-  .mark { width:56px; height:56px; border-radius:15px; background:var(--accent); color:#fff;
-          display:grid; place-items:center; font-weight:700; font-size:28px; }
-  h1 { font-size:28px; margin:20px 0 4px; }
-  .muted { color:var(--muted); }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px 20px; margin:20px 0; }
-  a { color:var(--accent); }
+         font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:760px; margin:0 auto; padding:56px 20px 64px; }
+  .brand { font-size:15px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+  h1 { font-size:34px; line-height:1.15; margin:10px 0 8px; letter-spacing:-.01em; }
+  .lead { color:var(--muted); margin:0 0 36px; max-width:560px; }
+  .apps { display:grid; gap:16px; }
+  .app { background:var(--card); border:1px solid var(--line); border-radius:22px; padding:22px;
+         display:grid; grid-template-columns:76px 1fr; gap:18px; align-items:start; }
+  .app img { width:76px; height:76px; border-radius:18px; display:block;
+             box-shadow:0 1px 2px rgba(0,0,0,.08), 0 6px 18px rgba(0,0,0,.08); }
+  .app h2 { font-size:21px; margin:2px 0 4px; }
+  .app p { margin:0 0 14px; color:var(--muted); }
+  .links { display:flex; flex-wrap:wrap; gap:8px; }
+  .links a { display:inline-block; padding:7px 13px; border-radius:999px; background:var(--chip);
+             color:var(--link); text-decoration:none; font-size:14px; font-weight:600; }
+  .links a:hover { text-decoration:underline; }
+  .contact { margin-top:28px; padding:20px 22px; border:1px solid var(--line); border-radius:22px; }
+  .contact strong { display:block; margin-bottom:4px; }
+  .contact p { margin:0; color:var(--muted); }
+  .contact a { color:var(--link); font-weight:600; }
+  footer { margin-top:36px; color:var(--muted); font-size:14px; }
+  @media (max-width:480px) {
+    .wrap { padding-top:36px; }
+    h1 { font-size:28px; }
+    .app { grid-template-columns:60px 1fr; gap:14px; padding:18px; }
+    .app img { width:60px; height:60px; border-radius:14px; }
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="mark">ك</div>
-  <h1>Ezan Vakti</h1>
-  <p class="muted">Kıble pusulası, namaz vakitleri, Kur'an-ı Kerîm ve daha fazlası — sade, çevrimdışı, reklamsız.</p>
-  <div class="card">
-    <strong>Destek & İletişim</strong>
-    <p>Soru, öneri veya hata bildirimi için:
-       <a href="mailto:labsmugi@gmail.com">labsmugi@gmail.com</a></p>
-    <p class="muted">Genellikle 1-2 gün içinde yanıt veriyoruz.</p>
+  <div class="brand">MuGi Labs</div>
+  <h1>Sade, özenli mobil uygulamalar</h1>
+  <p class="lead">Simple, carefully made apps for iPhone and Android. Hesap yok, gereksiz veri yok.</p>
+
+  <div class="apps">
+    <section class="app">
+      <img src="img/ezan-vakti.png" alt="Ezan Vakti simgesi" width="76" height="76">
+      <div>
+        <h2>Ezan Vakti</h2>
+        <p>Namaz vakitleri, kıble pusulası, Kur'an-ı Kerîm ve daha fazlası. Sade, çevrimdışı, reklamsız.</p>
+        <div class="links">
+          <a href="https://apps.apple.com/tr/app/id6825951256">App Store</a>
+          <a href="privacy.html">Gizlilik / Privacy</a>
+          <a href="mailto:labsmugi@gmail.com?subject=Ezan%20Vakti">Destek / Support</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="app">
+      <img src="img/wordmill.png" alt="Wordmill icon" width="76" height="76">
+      <div>
+        <h2>Wordmill</h2>
+        <p>15 dilde günlük kelime bulmacaları: merdiven, değirmen ve atasözü şifresi.
+           Daily word puzzles in 15 languages.</p>
+        <div class="links">
+          <a href="wordmill-privacy.html">Gizlilik / Privacy</a>
+          <a href="mailto:labsmugi@gmail.com?subject=Wordmill">Destek / Support</a>
+        </div>
+      </div>
+    </section>
   </div>
-  <p><a href="privacy.html">Gizlilik Politikası / Privacy Policy</a></p>
-  <div class="card">
-    <strong>Wordmill</strong>
-    <p class="muted">15 dilde günlük kelime bulmacaları: merdiven, değirmen ve atasözü şifresi.<br>
-       Daily word puzzles in 15 languages.</p>
-    <p><a href="wordmill-privacy.html">Wordmill Gizlilik Politikası / Privacy Policy</a></p>
+
+  <div class="contact">
+    <strong>Destek &amp; İletişim · Support</strong>
+    <p>Soru, öneri veya hata bildirimi için / Questions and feedback:
+       <a href="mailto:labsmugi@gmail.com">labsmugi@gmail.com</a>.
+       Genellikle 1-2 gün içinde yanıt veriyoruz.</p>
   </div>
-  <p class="muted">© 2026 MuGi Labs</p>
+
+  <footer>© 2026 MuGi Labs</footer>
 </div>
 </body>
 </html>
