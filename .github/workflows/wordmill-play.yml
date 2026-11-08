@@ -1,0 +1,46 @@
+# Wordmill web game: keeps the rolling window of day files and answers pages up to date.
+# Every day at 12:15 UTC (when the previous day has ended in every time zone) it runs
+# .github/wordmill-play/daily.py, which writes wordmill/play/data/<lang>/<day>.json for today-30 … today+2,
+# the past days' answers pages and sitemap.xml, and deletes what fell out of the window. Python standard library only.
+name: Wordmill daily puzzles
+
+on:
+  schedule:
+    - cron: "15 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: wordmill-play
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Write today's window
+        run: python3 .github/wordmill-play/daily.py --root .
+      - name: Commit and push
+        id: commit
+        run: |
+          git config user.name "wordmill-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A wordmill/play
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Wordmill: puzzles for $(date -u +%F)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      # Pushes made with GITHUB_TOKEN normally still rebuild a branch-deployed Pages site; this asks for a build
+      # explicitly as well, in case they don't (harmless if it already runs; ignored when Pages deploys via Actions).
+      - name: Request a Pages build
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true

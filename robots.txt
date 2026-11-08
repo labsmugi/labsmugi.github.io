@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /wordmill/play/embed/
+
+Sitemap: https://labsmugi.github.io/wordmill/play/sitemap.xml

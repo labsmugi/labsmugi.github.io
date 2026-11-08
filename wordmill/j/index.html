@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join my Wordmill league!</title>
+<!-- Shared invitations: https://labsmugi.github.io/wordmill/j/?c=CODE. With the app installed this URL is a
+     Universal Link / App Link and never loads; this page is for friends who don't have Wordmill yet. -->
+<meta name="description" content="Daily word puzzles in 15 languages. Join my league and compare scores every week.">
+<meta property="og:title" content="Join my Wordmill league!">
+<meta property="og:description" content="Daily word puzzles in 15 languages. Compare scores with friends every week.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://labsmugi.github.io/img/wordmill.png">
+<meta property="og:site_name" content="Wordmill">
+<meta name="apple-itunes-app" content="app-id=6829465408">
+<link rel="stylesheet" href="../site.css">
+</head>
+<body>
+<main>
+  <img class="logo" src="../../img/wordmill.png" alt="" width="84" height="84">
+  <div class="brand">WORDMILL</div>
+  <section id="invite">
+    <h1 data-t="invited">You're invited to a Wordmill league!</h1>
+    <p data-t="joinLead">Solve the five daily puzzles and compare scores with your friends every week.</p>
+    <div class="card">
+      <div class="label" data-t="code">League code</div>
+      <div class="code" id="code">······</div>
+      <button class="copy" id="copy" type="button" data-t="copy">Copy code</button>
+      <p class="steps" id="steps"></p>
+    </div>
+  </section>
+  <section id="nocode" hidden>
+    <h1 data-t="title">Wordmill: daily word puzzles</h1>
+    <p data-t="noCode">This invite link is missing its code. Ask your friend to send it again.</p>
+  </section>
+  <div class="stores" id="stores"></div>
+  <a class="open" id="open" href="#" data-t="open">Already have Wordmill? Open the league</a>
+  <p class="small"><a href="../">labsmugi.github.io/wordmill</a></p>
+</main>
+<script src="../site.js"></script>
+<script>Wordmill.join();</script>
+</body>
+</html>

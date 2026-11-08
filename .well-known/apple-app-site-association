@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["V25HUK75W5.com.mugilabs.wordmill"],
+        "components": [
+          { "/": "/wordmill/j", "comment": "League join page without the slash" },
+          { "/": "/wordmill/j/*", "comment": "League join page: /wordmill/j/?c=CODE (shared) and /wordmill/j/CODE" },
+          { "/": "/wordmill/", "?": { "join": "?*" }, "comment": "Wordmill 1.1 beta invitations: /wordmill/?join=CODE" }
+        ]
+      }
+    ]
+  }
+}

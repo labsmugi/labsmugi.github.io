@@ -1,0 +1,4 @@
+# GitHub Pages builds the site with Jekyll, which skips dot-folders. Without this line
+# /.well-known/apple-app-site-association and /.well-known/assetlinks.json would be 404 and
+# Universal Links / App Links would never verify. If the site already has a _config.yml, add the line there.
+include: [".well-known"]

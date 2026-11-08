@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mugilabs.wordmill",
+      "sha256_cert_fingerprints": [
+        "C2:64:1C:7A:E9:AD:3A:45:FE:6C:AC:D6:7A:B3:EE:BE:1C:55:E7:FF:6A:FB:F7:E9:82:FA:EA:59:A6:26:01:DA",
+        "C8:B8:B1:3D:51:24:33:7E:CC:33:02:7D:F0:DC:12:F8:1B:9E:CD:DA:95:65:C1:8F:2E:5F:AB:1A:FC:E4:9C:0E"
+      ]
+    }
+  }
+]
