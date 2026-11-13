@@ -38,7 +38,7 @@ table.times { border-collapse:collapse; width:100%; font-variant-numeric:tabular
 .times th, .times td { padding:7px 8px; text-align:center; border-bottom:1px solid var(--line); white-space:nowrap; }
 .times th { font-size:13px; color:var(--muted); font-weight:600; position:sticky; top:0; background:var(--card); }
 .times th small { font-weight:400; }
-.times td.d { text-align:left; }
+.times td.d { text-align:start; }
 .times td.rd { color:var(--muted); }
 .times tr:last-child td { border-bottom:0; }
 .times tr.today td { background:var(--green-soft); font-weight:700; }

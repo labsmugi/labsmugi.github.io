@@ -133,6 +133,7 @@ def page(path, title, description, body, crumbs, today_iso=None, extra_head=""):
 <p>Vakitler, Diyanet İşleri Başkanlığı'nın kullandığı usulle (imsak 18°, yatsı 17°, temkin payları) hesaplanır. Resmî takvimle karşılaştırıldığında vakitlerin büyük çoğunluğu aynı dakikadır, kalanlarda en fazla 1 dakika fark olur; ihtiyat için vaktin girmesini birkaç dakika bekleyin.</p>
 <p><a href="{BASE}">Tüm iller</a> · <a href="{BASE}{RAMADAN_SLUG}/">Ramazan İmsakiyesi {RAMADAN_YEAR}</a> · <a href="/">MuGi Labs</a> · <a href="/privacy.html">Gizlilik</a></p>
 <p class="small">Konum verisi: <a href="https://www.geonames.org/" rel="nofollow">GeoNames</a> (CC BY 4.0).</p>
+{intl.LANG_LINKS}
 </footer>
 <script src="{BASE}app.js" defer></script>
 </body>

@@ -20,6 +20,10 @@ SITE = "https://labsmugi.github.io"
 APP_ID = "6825951256"
 PKG = "com.mugilabs.ezan"
 RAMADAN_START = date(2027, 2, 8)
+# Footer of every Ezan page (Turkish ones too): lets visitors and crawlers reach the other languages.
+LANG_LINKS = ('<p class="langs"><a href="/ezan/" lang="tr">Türkçe</a> · <a href="/ezan/id/" lang="id">Bahasa Indonesia</a> · '
+              '<a href="/ezan/ms/" lang="ms">Bahasa Melayu</a> · <a href="/ezan/ar/" lang="ar">العربية</a> · '
+              '<a href="/ezan/bn/" lang="bn">বাংলা</a> · <a href="/ezan/en/" lang="en">English</a></p>')
 
 
 def e(s):
@@ -43,7 +47,7 @@ class Kemenag:
     """Indonesia: computed with the Kemenag-tuned method (see prayertimes.TUNING)."""
     keys = ("imsak", "subuh", "gunes", "ogle", "ikindi", "aksam", "yatsi")
 
-    def day(self, p, d):
+    def day(self, p, d, ramadan=False):
         t = times(d, p["lat"], p["lon"], p["tz"], "kemenag", elevation=p.get("elev", 0))
         return [hhmm(t[k]) for k in self.keys], False
 
@@ -85,7 +89,7 @@ class Jakim:
                 return zone_rows[d.isoformat()][0]
         return None
 
-    def day(self, p, d):
+    def day(self, p, d, ramadan=False):
         r, est = self.row(p["zone"], d)
         return (r[1:] if r else ["--:--"] * 7), est
 
@@ -100,6 +104,20 @@ class Jakim:
                 break
             d += timedelta(days=1)
         return rows
+
+
+class Computed:
+    """Everywhere else: the app's default method for the place's country (prepare_world.py), with the
+    pages' safety rules (high-latitude Fajr/Isha, prayer times rounded up; see prayertimes.times)."""
+    keys = ("imsak", "gunes", "ogle", "ikindi", "aksam", "yatsi")
+
+    def day(self, p, d, ramadan=False):
+        t = times(d, p["lat"], p["lon"], p["tz"], p["method"], hanafi_asr=p.get("hanafi", False),
+                  safe=True, ramadan=ramadan)
+        return [hhmm(t[k]) for k in self.keys], False
+
+    def ramadan(self, p):
+        return [(RAMADAN_START + timedelta(days=i), str(i + 1)) for i in range(30)]
 
 
 # ------------------------------------------------------------------ locales
@@ -197,6 +215,146 @@ LOCALES = {
         "all": "Semua kawasan", "privacy": "Privasi", "geo": "Data lokasi",
         "estimate": "Anggaran: JAKIM belum menerbitkan takwim tahun ini bagi zon ini; waktu diambil daripada tarikh yang sama tahun lepas.",
     },
+    "ar": {
+        "places": "places-ar.json", "source": Computed, "lang": "ar", "locale": "ar", "og": "ar_AR", "rtl": True,
+        "full": "{name}، {group}",
+        "store": "", "app_name": "وقت الأذان", "full_month": True,
+        "cols": ["الفجر", "الشروق", "الظهر", "العصر", "المغرب", "العشاء"], "sun": 1, "iftar": 4,
+        "months": "يناير فبراير مارس أبريل مايو يونيو يوليو أغسطس سبتمبر أكتوبر نوفمبر ديسمبر".split(),
+        "days": "الاثنين الثلاثاء الأربعاء الخميس الجمعة السبت الأحد".split(),
+        "days_short": "الاثنين الثلاثاء الأربعاء الخميس الجمعة السبت الأحد".split(),
+        "compass": ["الشمال", "الشمال الشرقي", "الشرق", "الجنوب الشرقي", "الجنوب", "الجنوب الغربي", "الغرب", "الشمال الغربي"],
+        "next": "{n} بعد {d}", "h": "ساعة", "m": "دقيقة",
+        "root": "مواقيت الصلاة",
+        "title": "مواقيت الصلاة في {name} اليوم – {month} | وقت الأذان",
+        "desc": "مواقيت الصلاة في {name} اليوم: الفجر والشروق والظهر والعصر والمغرب والعشاء. جدول مواقيت شهر {month} واتجاه القبلة وإمساكية رمضان 2027.",
+        "h1": "مواقيت الصلاة في {name}",
+        "lead": "مواعيد الأذان في {full}. مواقيت اليوم والوقت المتبقي للصلاة القادمة في الأعلى، وجدول الشهر كاملاً في الأسفل.",
+        "month_h": "مواقيت الصلاة في {name} لشهر {month}",
+        "date_col": "التاريخ",
+        "qibla_h": "اتجاه القبلة في {name}",
+        "qibla": "اتجاه القبلة من {full}: <b>{deg}°</b> من الشمال باتجاه عقارب الساعة (نحو {compass}). المسافة إلى الكعبة نحو <b>{km} كم</b>.",
+        "others": "مدن أخرى في {group}",
+        "ram_slug": "imsakiya-ramadan-2027",
+        "ram_btn": "إمساكية رمضان 2027 في {name} ←",
+        "ram_title": "إمساكية رمضان 2027 {name} – مواعيد السحور والإفطار",
+        "ram_desc": "إمساكية رمضان 1448 هـ / 2027 في {full}: موعد الإمساك (الفجر) والإفطار (المغرب) يوماً بيوم بدءاً من 8 فبراير 2027. اليوم الأول: الفجر {imsak} والإفطار {iftar}.",
+        "ram_h1": "إمساكية رمضان 1448 هـ / 2027 في {name}",
+        "ram_lead": "مواعيد الإمساك والإفطار في {full} خلال رمضان 1448 هـ. يبدأ رمضان فلكياً يوم الاثنين 8 فبراير 2027 (تقويم أم القرى)، وقد يتأخر يوماً في بعض الدول بحسب رؤية الهلال.",
+        "ram_crumb": "إمساكية 2027",
+        "ram_day": "اليوم", "ram_imsak_sub": "الإمساك", "ram_iftar_sub": "الإفطار",
+        "fact_imsak": "الإمساك في اليوم الأول", "fact_iftar": "الإفطار في اليوم الأول", "fact_last": "آخر إفطار ({d})",
+        "note_first": "أول أيام الصيام", "note_30": "إذا كان الشهر 30 يوماً", "note_eid": "عيد الفطر",
+        "ram_howto_h": "كيف تقرأ الإمساكية؟",
+        "ram_howto": "يبدأ الصيام مع أذان <b>الفجر</b>، ويُستحب الانتهاء من السحور قبله بدقائق. وقت الإفطار هو أذان <b>المغرب</b>. وتُصلّى التراويح بعد صلاة العشاء.",
+        "back": "مواقيت الصلاة اليومية في {name} ←",
+        "index_title": "مواقيت الصلاة اليوم في المدن العربية | وقت الأذان",
+        "index_desc": "مواقيت الصلاة اليوم في مدن السعودية ومصر والإمارات والعراق والمغرب والجزائر وسائر الدول العربية، مع جدول الشهر واتجاه القبلة وإمساكية رمضان 2027.",
+        "index_h1": "مواقيت الصلاة",
+        "index_lead": "مواقيت الصلاة في {n} مدينة في {g} دولة عربية: مواقيت اليوم وجدول الشهر واتجاه القبلة وإمساكية رمضان 2027. اختر مدينتك.",
+        "ram_index_title": "إمساكية رمضان 2027 – مواعيد السحور والإفطار في المدن العربية",
+        "ram_index_desc": "إمساكية رمضان 1448 هـ / 2027 لمدن السعودية ومصر والإمارات والعراق والمغرب وسائر الدول العربية: مواعيد الإمساك والإفطار يوماً بيوم.",
+        "ram_index_h1": "إمساكية رمضان 2027",
+        "ram_index_lead": "يبدأ شهر رمضان 1448 هـ فلكياً يوم الاثنين 8 فبراير 2027، ويُعلن بدايته رسمياً في كل دولة. اختر مدينتك لمعرفة مواعيد الإمساك والإفطار.",
+        "app_h": "احصل على تنبيه الأذان",
+        "app_p": "تطبيق وقت الأذان يحسب مواقيت الصلاة في موقعك دون إنترنت وينبّهك بصوت الأذان، ومعه بوصلة القبلة والقرآن الكريم والإمساكية وتذكير السحور. مجاني وبلا إعلانات.",
+        "method": "تُحسب المواقيت بالطريقة المعتمدة في كل دولة كما في التطبيق: أم القرى في السعودية ودول الخليج، والهيئة المصرية العامة للمساحة في مصر والسودان والشام والعراق، وطريقة دبي في الإمارات، ورابطة العالم الإسلامي في المغرب العربي. قد تختلف بدقيقة أو دقيقتين عن التقويم الرسمي المحلي.",
+        "all": "جميع المدن", "privacy": "الخصوصية", "geo": "بيانات المواقع",
+        "estimate": "",
+    },
+    "bn": {
+        "places": "places-bd.json", "source": Computed, "lang": "bn", "locale": "bn-BD", "og": "bn_BD",
+        "full": "{name}",
+        "store": "", "app_name": "Adhan Time", "full_month": True,
+        "cols": ["ফজর", "সূর্যোদয়", "যোহর", "আসর", "মাগরিব", "এশা"], "sun": 1, "iftar": 4,
+        "months": "জানুয়ারি ফেব্রুয়ারি মার্চ এপ্রিল মে জুন জুলাই আগস্ট সেপ্টেম্বর অক্টোবর নভেম্বর ডিসেম্বর".split(),
+        "days": "সোমবার মঙ্গলবার বুধবার বৃহস্পতিবার শুক্রবার শনিবার রবিবার".split(),
+        "days_short": "সোম মঙ্গল বুধ বৃহঃ শুক্র শনি রবি".split(),
+        "compass": ["উত্তর", "উত্তর-পূর্ব", "পূর্ব", "দক্ষিণ-পূর্ব", "দক্ষিণ", "দক্ষিণ-পশ্চিম", "পশ্চিম", "উত্তর-পশ্চিম"],
+        "next": "{n} শুরু হতে {d} বাকি", "h": "ঘণ্টা", "m": "মিনিট",
+        "root": "নামাজের সময়সূচি",
+        "title": "{name} নামাজের সময়সূচি আজ – {month} | Adhan Time",
+        "desc": "আজ {name}-এ নামাজের সময়: ফজর, সূর্যোদয়, যোহর, আসর, মাগরিব ও এশা। {month} মাসের নামাজের সময়সূচি, কিবলার দিক এবং রমজান ২০২৭-এর সেহরি ও ইফতারের সময়সূচি।",
+        "h1": "{name} নামাজের সময়সূচি",
+        "lead": "{full}-এর নামাজের সময়। আজকের সময় এবং পরবর্তী নামাজ পর্যন্ত বাকি সময় নিচে; পুরো মাসের সময়সূচি টেবিলে।",
+        "month_h": "{name} নামাজের সময়সূচি – {month}",
+        "date_col": "তারিখ",
+        "qibla_h": "{name} থেকে কিবলার দিক",
+        "qibla": "{full} থেকে কিবলা উত্তর দিক থেকে ঘড়ির কাঁটার দিকে <b>{deg}°</b> ({compass} দিকে)। কাবা শরিফের দূরত্ব প্রায় <b>{km} কিমি</b>।",
+        "others": "{group} বিভাগের অন্যান্য এলাকা",
+        "ram_slug": "ramadan-sehri-iftar-2027",
+        "ram_btn": "{name} রমজান ২০২৭ সেহরি ও ইফতারের সময়সূচি →",
+        "ram_title": "{name} সেহরি ও ইফতারের সময়সূচি – রমজান ২০২৭",
+        "ram_desc": "রমজান ১৪৪৮ হিজরি / ২০২৭-এ {full}-এর সেহরির শেষ সময় ও ইফতারের সময়, ৮ ফেব্রুয়ারি ২০২৭ থেকে প্রতিদিন। প্রথম দিন: সেহরি শেষ {imsak}, ইফতার {iftar}।",
+        "ram_h1": "{name} সেহরি ও ইফতারের সময়সূচি – রমজান ২০২৭",
+        "ram_lead": "রমজান ১৪৪৮ হিজরিতে {full}-এর সেহরির শেষ সময় (ফজর) ও ইফতারের সময় (মাগরিব)। সময়সূচিটি ৮ ফেব্রুয়ারি ২০২৭ থেকে রমজান শুরু ধরে তৈরি; বাংলাদেশে চাঁদ দেখার ওপর নির্ভর করে রমজান একদিন পরেও শুরু হতে পারে।",
+        "ram_crumb": "রমজান ২০২৭",
+        "ram_day": "রোজা", "ram_imsak_sub": "সেহরি শেষ", "ram_iftar_sub": "ইফতার",
+        "fact_imsak": "প্রথম দিন সেহরি শেষ", "fact_iftar": "প্রথম দিন ইফতার", "fact_last": "শেষ ইফতার ({d})",
+        "note_first": "প্রথম রোজা", "note_30": "মাস ৩০ দিনের হলে", "note_eid": "ঈদুল ফিতর",
+        "ram_howto_h": "সময়সূচি কীভাবে পড়বেন",
+        "ram_howto": "<b>ফজর</b>-এর সময় শুরু হলে সেহরির সময় শেষ হয়; সতর্কতার জন্য কয়েক মিনিট আগে খাওয়া শেষ করুন। <b>মাগরিব</b>-এর সময় ইফতার। তারাবির নামাজ এশার পরে আদায় করা হয়।",
+        "back": "{name} দৈনিক নামাজের সময়সূচি →",
+        "index_title": "বাংলাদেশের নামাজের সময়সূচি আজ | Adhan Time",
+        "index_desc": "বাংলাদেশের সব বিভাগের শহরগুলোর আজকের নামাজের সময়সূচি, মাসিক সময়সূচি, কিবলার দিক এবং রমজান ২০২৭-এর সেহরি ও ইফতারের সময়।",
+        "index_h1": "বাংলাদেশের নামাজের সময়সূচি",
+        "index_lead": "{g}টি বিভাগের {n}টি এলাকার নামাজের সময়: আজকের সময়, মাসিক সময়সূচি, কিবলার দিক এবং রমজান ২০২৭-এর সময়সূচি। আপনার এলাকা বেছে নিন।",
+        "ram_index_title": "রমজান ২০২৭ সেহরি ও ইফতারের সময়সূচি – বাংলাদেশ",
+        "ram_index_desc": "রমজান ১৪৪৮ হিজরি / ২০২৭-এ বাংলাদেশের সব বিভাগের এলাকাগুলোর সেহরি ও ইফতারের সময়সূচি।",
+        "ram_index_h1": "রমজান ২০২৭ সেহরি ও ইফতারের সময়সূচি",
+        "ram_index_lead": "রমজান ১৪৪৮ হিজরি ৮ বা ৯ ফেব্রুয়ারি ২০২৭ শুরু হওয়ার কথা (চাঁদ দেখার ওপর নির্ভরশীল)। আপনার এলাকা বেছে নিন।",
+        "app_h": "আজানের সময় নোটিফিকেশন পান",
+        "app_p": "Adhan Time অ্যাপ আপনার অবস্থানের নামাজের সময় ইন্টারনেট ছাড়াই হিসাব করে এবং আজানের সুরে মনে করিয়ে দেয়; সঙ্গে আছে কিবলা কম্পাস, কুরআন, সেহরি-ইফতারের সময়সূচি ও সেহরির রিমাইন্ডার। বিনামূল্যে ও বিজ্ঞাপনমুক্ত।",
+        "method": "সময় হিসাব করা হয়েছে করাচি বিশ্ববিদ্যালয়ের পদ্ধতিতে (ফজর ও এশা ১৮°, আসর হানাফি মাজহাব অনুযায়ী)। ইসলামিক ফাউন্ডেশনের সময়সূচির সঙ্গে ১–২ মিনিট পার্থক্য হতে পারে।",
+        "all": "সব এলাকা", "privacy": "গোপনীয়তা নীতি", "geo": "অবস্থানের তথ্য",
+        "estimate": "",
+    },
+    "en": {
+        "places": "places-en.json", "source": Computed, "lang": "en", "locale": "en-GB", "og": "en_GB",
+        "store": "", "app_name": "Adhan Time",
+        "cols": ["Fajr", "Sunrise", "Dhuhr", "Asr", "Maghrib", "Isha"], "sun": 1, "iftar": 4,
+        "months": "January February March April May June July August September October November December".split(),
+        "days": "Monday Tuesday Wednesday Thursday Friday Saturday Sunday".split(),
+        "days_short": "Mon Tue Wed Thu Fri Sat Sun".split(),
+        "compass": ["north", "north-east", "east", "south-east", "south", "south-west", "west", "north-west"],
+        "next": "{n} in {d}", "h": "h", "m": "min",
+        "root": "Prayer Times",
+        "title": "Prayer Times in {name} Today – {month} | Adhan Time",
+        "desc": "Today's prayer times (namaz timings) in {name}: Fajr, Sunrise, Dhuhr, Asr, Maghrib and Isha. {month} prayer timetable, qibla direction and the Ramadan 2027 timetable.",
+        "h1": "Prayer Times in {name}",
+        "lead": "Salah times for {full}. Today's times and a countdown to the next prayer are below; the whole month is in the table.",
+        "month_h": "{name} prayer timetable, {month}",
+        "date_col": "Date",
+        "qibla_h": "Qibla direction in {name}",
+        "qibla": "From {full} the qibla is <b>{deg}°</b> clockwise from north ({compass}). The Kaaba is about <b>{km} km</b> away.",
+        "others": "Other cities in {group}",
+        "ram_slug": "ramadan-timetable-2027",
+        "ram_btn": "{name} Ramadan 2027 timetable →",
+        "ram_title": "Ramadan Timetable 2027 {name} – Sehri and Iftar Times",
+        "ram_desc": "Ramadan 1448 AH / 2027 timetable for {full}: sehri (suhoor) ends at Fajr and iftar is at Maghrib, day by day from 8 February 2027. Day 1: Fajr {imsak}, iftar {iftar}.",
+        "ram_h1": "Ramadan 2027 Timetable for {name}",
+        "ram_lead": "Sehri (suhoor) end and iftar times in {full} for Ramadan 1448 AH. The timetable assumes Ramadan begins on Monday 8 February 2027, its astronomical start; depending on moon sighting it may begin a day later where you live.",
+        "ram_crumb": "Ramadan 2027",
+        "ram_day": "Day", "ram_imsak_sub": "sehri ends", "ram_iftar_sub": "iftar",
+        "fact_imsak": "Sehri ends, day 1", "fact_iftar": "Iftar, day 1", "fact_last": "Last iftar ({d})",
+        "note_first": "First fast", "note_30": "If Ramadan has 30 days", "note_eid": "Eid al-Fitr",
+        "ram_howto_h": "How to read the timetable",
+        "ram_howto": "The fast begins at <b>Fajr</b>: finish sehri a few minutes before it. Iftar is at <b>Maghrib</b>. Taraweeh is prayed after Isha.",
+        "back": "Daily prayer times in {name} →",
+        "index_title": "Prayer Times Today – Pakistan, UK, USA, Canada, Australia | Adhan Time",
+        "index_desc": "Today's prayer times and namaz timings for cities in Pakistan, the United Kingdom, the United States, Canada and Australia, with monthly timetables, qibla direction and the Ramadan 2027 timetable.",
+        "index_h1": "Prayer Times",
+        "index_lead": "Prayer times for {n} cities in {g} countries: today's times, the monthly timetable, qibla direction and the Ramadan 2027 timetable. Choose your city.",
+        "ram_index_title": "Ramadan Timetable 2027 – Sehri and Iftar Times by City",
+        "ram_index_desc": "Ramadan 1448 AH / 2027 sehri and iftar timetables for cities in Pakistan, the UK, the US, Canada and Australia.",
+        "ram_index_h1": "Ramadan 2027 Timetable",
+        "ram_index_lead": "Ramadan 1448 AH is expected to begin on Monday 8 February 2027, subject to moon sighting. Choose your city for sehri and iftar times.",
+        "app_h": "Get adhan notifications",
+        "app_p": "The Adhan Time app works out the prayer times where you are, offline, and reminds you with the adhan; it also has a qibla compass, the Quran, a Ramadan timetable and sehri reminders. Free, with no ads.",
+        "method": "Times are calculated with each country's usual method, as in the app: Karachi (University of Islamic Sciences) with Hanafi Asr in Pakistan, ISNA in the US and Canada and the Muslim World League elsewhere; where twilight never ends in summer, Fajr and Isha follow the angle-based rule. Local mosque timetables can differ by a few minutes.",
+        "all": "All cities", "privacy": "Privacy", "geo": "Location data",
+        "estimate": "",
+    },
 }
 
 
@@ -216,14 +374,16 @@ class Site:
         return f"{self.c['days'][d.weekday()]}, {d.day} {self.c['months'][d.month - 1]} {d.year}"
 
     def short_date(self, d):
-        return f"{d.day} {self.c['months'][d.month - 1][:3]} {self.c['days_short'][d.weekday()]}"
+        month = self.c["months"][d.month - 1]
+        return f"{d.day} {month if self.c.get('full_month') else month[:3]} {self.c['days_short'][d.weekday()]}"
 
     def path(self, p, ramadan=False):
         return f"{self.base}{p['slug']}/" + (f"{self.c['ram_slug']}/" if ramadan else "")
 
     def stores(self):
         c = self.c
-        return (f"https://apps.apple.com/{c['store']}/app/id{APP_ID}",
+        country = f"{c['store']}/" if c.get("store") else ""
+        return (f"https://apps.apple.com/{country}app/id{APP_ID}",
                 f"https://play.google.com/store/apps/details?id={PKG}&hl={c['lang']}")
 
     def page(self, path, title, desc, body, crumbs, tz):
@@ -233,8 +393,9 @@ class Site:
         nav = " › ".join(f'<a href="{e(h)}">{e(n)}</a>' if i < len(crumbs) - 1 else f"<span>{e(n)}</span>"
                          for i, (n, h) in enumerate(crumbs))
         ios, play = self.stores()
+        dir_attr = ' dir="rtl"' if c.get("rtl") else ""
         return f"""<!doctype html>
-<html lang="{c['lang']}">
+<html lang="{c['lang']}"{dir_attr}>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -271,6 +432,7 @@ class Site:
 <p>{e(c['method'])}</p>
 <p><a href="{self.base}">{e(c['all'])}</a> · <a href="{self.base}{c['ram_slug']}/">{e(c['ram_crumb'])}</a> · <a href="/">MuGi Labs</a> · <a href="/privacy.html">{e(c['privacy'])}</a></p>
 <p class="small">{e(c['geo'])}: <a href="https://www.geonames.org/" rel="nofollow">GeoNames</a> (CC BY 4.0).</p>
+{LANG_LINKS}
 </footer>
 <script src="/ezan/app.js" defer></script>
 </body>
@@ -312,12 +474,13 @@ class Site:
             rows.append({"date": d, "times": ts})
         nxt = first + timedelta(days=days)
         after, _ = self.src.day(p, nxt)
-        name, full = p["name"], f"{p['name']}, {g['name']}"
+        name, full = p["name"], c.get("full", "{name}, {group}").format(name=p["name"], group=g["name"])
         month = self.month_name(first)
         fmt = dict(name=name, full=full, month=month, zone=p.get("zone", ""), group=g["name"])
         h0 = rows[0]
         hero = "".join(f'<li data-n="{"sun" if i == c["sun"] else i}"><span>{e(col)}</span><b>{t}</b></li>'
                        for i, (col, t) in enumerate(zip(c["cols"], h0["times"])))
+        seven = " seven" if len(c["cols"]) == 7 else ""
         bearing, dist = qibla(p["lat"], p["lon"])
         others = "".join(f'<li><a href="{self.path(o)}">{e(o["name"])}</a></li>' for o in g["places"] if o["slug"] != p["slug"])
         path = self.path(p)
@@ -326,7 +489,7 @@ class Site:
 <section class="hero" id="hero">
 <p class="today"><span id="hero-date">{e(self.long_date(h0['date']))}</span> · {e(full)}</p>
 <p class="next" id="next" hidden></p>
-<ul class="six seven">{hero}</ul>
+<ul class="six{seven}">{hero}</ul>
 </section>
 <p class="cta"><a class="btn" href="{self.path(p, True)}">{e(c['ram_btn'].format(**fmt))}</a></p>
 <section><h2>{e(c['month_h'].format(**fmt))}</h2>
@@ -345,7 +508,7 @@ class Site:
         rows, est = [], False
         days = self.src.ramadan(p)
         for i, (d, rday) in enumerate(days):
-            ts, x = self.src.day(p, d)
+            ts, x = self.src.day(p, d, ramadan=rday != "–")
             est = est or x
             note, cls = "", ""
             if i == 0:
@@ -357,7 +520,7 @@ class Site:
             rows.append({"date": d, "times": ts, "rday": rday, "note": note, "cls": cls})
         fasting = [r for r in rows if r["rday"] != "–"]
         last = fasting[-1]
-        name, full = p["name"], f"{p['name']}, {g['name']}"
+        name, full = p["name"], c.get("full", "{name}, {group}").format(name=p["name"], group=g["name"])
         fmt = dict(name=name, full=full, imsak=rows[0]["times"][0], iftar=rows[0]["times"][c["iftar"]])
         path = self.path(p, True)
         body = f"""<h1>{e(c['ram_h1'].format(**fmt))}</h1>

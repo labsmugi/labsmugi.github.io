@@ -107,10 +107,18 @@ def _diyanet_solar(day, lat, asr_factor):
 
 
 def times(day: date, lat: float, lon: float, tz: str, method: str = "diyanet", hanafi_asr: bool = False,
-          elevation: float = 0.0, tuned: bool = True):
+          elevation: float = 0.0, tuned: bool = True, safe: bool = False, ramadan: bool = False):
     """The six times of `day` as timezone-aware datetimes, keyed by NAMES (plus "subuh" when the
-    method has a separate Imsak: then "imsak" is Subuh - 10 min and "subuh" the Fajr time)."""
+    method has a separate Imsak: then "imsak" is Subuh - 10 min and "subuh" the Fajr time).
+
+    safe=True (pages of untuned methods): fajr/isha follow the angle-based rule where the twilight
+    angle is never reached (summer at high latitudes) or the twilight is longer than angle/60 of the
+    night, and the prayers that must not be shown early (öğle, ikindi, akşam, yatsı) are rounded up
+    to the next minute instead of having their seconds dropped.
+    ramadan=True: Umm al-Qura's Isha is 120 minutes after Maghrib in Ramadan (90 otherwise)."""
     fajr_angle, isha_angle, isha_interval, maghrib_angle = METHODS[method]
+    if ramadan and method == "ummalqura":
+        isha_interval = 120
     asr_factor = 2.0 if hanafi_asr else 1.0
     zone = ZoneInfo(tz)
     jd = _julian_day(day.year, day.month, day.day) - lon / (15.0 * 24.0)
@@ -149,6 +157,15 @@ def times(day: date, lat: float, lon: float, tz: str, method: str = "diyanet", h
     solar["imsak"] = sun_angle_time(fajr_angle, 5.0 / 24.0, True)
     solar["yatsi"] = maghrib + isha_interval / 60.0 if isha_interval is not None else sun_angle_time(isha_angle, 18.0 / 24.0, False)
     solar["ikindi"] = asr_time(13.0 / 24.0)
+    if safe:
+        night = 24.0 - (maghrib - solar["gunes"])
+        fajr_max = fajr_angle / 60.0 * night
+        if solar["gunes"] - solar["imsak"] > fajr_max:
+            solar["imsak"] = solar["gunes"] - fajr_max
+        if isha_interval is None:
+            isha_max = isha_angle / 60.0 * night
+            if solar["yatsi"] - maghrib > isha_max:
+                solar["yatsi"] = maghrib + isha_max
 
     temkin = tuning.get("offsets", {})
     if method == "diyanet":
@@ -159,6 +176,8 @@ def times(day: date, lat: float, lon: float, tz: str, method: str = "diyanet", h
     for name in NAMES:
         local = _fix_hour(solar[name] + adjust)
         seconds = math.floor(local * 3600 + 0.5 + temkin.get(name, 0))
+        if safe and name in ("ogle", "ikindi", "aksam", "yatsi"):
+            seconds = -(-seconds // 60) * 60
         # Same as the app: start of day + seconds (wall-clock arithmetic is fine away from DST nights).
         out[name] = start + timedelta(seconds=seconds)
     if method in SEPARATE_IMSAK:

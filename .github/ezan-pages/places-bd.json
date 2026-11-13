@@ -1,0 +1,977 @@
+[
+ {
+  "name": "রংপুর",
+  "places": [
+   {
+    "name": "রংপুর",
+    "slug": "rangpur",
+    "lat": 25.7466,
+    "lon": 89.2517,
+    "tz": "Asia/Dhaka",
+    "elev": 36,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "দিনাজপুর",
+    "slug": "dinajpur",
+    "lat": 25.6274,
+    "lon": 88.6378,
+    "tz": "Asia/Dhaka",
+    "elev": 42,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "সৈয়দপুর",
+    "slug": "saidpur",
+    "lat": 25.7777,
+    "lon": 88.8917,
+    "tz": "Asia/Dhaka",
+    "elev": 43,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "ঠাকুরগাঁও",
+    "slug": "thakurgaon",
+    "lat": 26.031,
+    "lon": 88.4699,
+    "tz": "Asia/Dhaka",
+    "elev": 57,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "লালমনিরহাট",
+    "slug": "lalmonirhat",
+    "lat": 25.9172,
+    "lon": 89.4459,
+    "tz": "Asia/Dhaka",
+    "elev": 38,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   }
+  ]
+ },
+ {
+  "name": "ঢাকা",
+  "places": [
+   {
+    "name": "ঢাকা",
+    "slug": "dhaka",
+    "lat": 23.7104,
+    "lon": 90.4074,
+    "tz": "Asia/Dhaka",
+    "elev": 23,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "গাজীপুর",
+    "slug": "gazipur",
+    "lat": 23.9984,
+    "lon": 90.4223,
+    "tz": "Asia/Dhaka",
+    "elev": 12,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "সাভার",
+    "slug": "savar",
+    "lat": 23.8486,
+    "lon": 90.25,
+    "tz": "Asia/Dhaka",
+    "elev": 10,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "কাফরুল",
+    "slug": "kafrul",
+    "lat": 23.7882,
+    "lon": 90.3736,
+    "tz": "Asia/Dhaka",
+    "elev": 13,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "টঙ্গী",
+    "slug": "tungi",
+    "lat": 23.8915,
+    "lon": 90.4023,
+    "tz": "Asia/Dhaka",
+    "elev": 13,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "ভাটারা",
+    "slug": "bhatara",
+    "lat": 23.8,
+    "lon": 90.45,
+    "tz": "Asia/Dhaka",
+    "elev": 4,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "নরসিংদী",
+    "slug": "narsingdi",
+    "lat": 23.923,
+    "lon": 90.7177,
+    "tz": "Asia/Dhaka",
+    "elev": 13,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "সুটরিয়া",
+    "slug": "nagar-naluakot",
+    "lat": 24.1561,
+    "lon": 90.7728,
+    "tz": "Asia/Dhaka",
+    "elev": 19,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "কালিয়াকৈর",
+    "slug": "kaliakair",
+    "lat": 24.0696,
+    "lon": 90.2221,
+    "tz": "Asia/Dhaka",
+    "elev": 13,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "নাগরপুর",
+    "slug": "nagarpur",
+    "lat": 24.0578,
+    "lon": 89.877,
+    "tz": "Asia/Dhaka",
+    "elev": 15,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "নারায়ণগঞ্জ",
+    "slug": "narayanganj",
+    "lat": 23.6135,
+    "lon": 90.503,
+    "tz": "Asia/Dhaka",
+    "elev": 13,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "মতিঝিল",
+    "slug": "motijheel",
+    "lat": 23.7277,
+    "lon": 90.4192,
+    "tz": "Asia/Dhaka",
+    "elev": 4,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "পল্টন",
+    "slug": "paltan",
+    "lat": 23.7362,
+    "lon": 90.4143,
+    "tz": "Asia/Dhaka",
+    "elev": 18,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "টাঙ্গাইল",
+    "slug": "tangail",
+    "lat": 24.2498,
+    "lon": 89.9166,
+    "tz": "Asia/Dhaka",
+    "elev": 17,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "সোনারগাঁও",
+    "slug": "sonargaon",
+    "lat": 23.65,
+    "lon": 90.6167,
+    "tz": "Asia/Dhaka",
+    "elev": 9,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "টুঙ্গিপাড়া",
+    "slug": "tungipara",
+    "lat": 22.8998,
+    "lon": 89.9033,
+    "tz": "Asia/Dhaka",
+    "elev": 8,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "ফরিদপুর",
+    "slug": "faridpur",
+    "lat": 23.6061,
+    "lon": 89.8406,
+    "tz": "Asia/Dhaka",
+    "elev": 15,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "গুলশান",
+    "slug": "gulshan",
+    "lat": 23.7897,
+    "lon": 90.4104,
+    "tz": "Asia/Dhaka",
+    "elev": 9,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "ভৈরব বাজার",
+    "slug": "bhairab-bazar",
+    "lat": 24.0524,
+    "lon": 90.9764,
+    "tz": "Asia/Dhaka",
+    "elev": 12,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "আজিমপুর",
+    "slug": "azimpur",
+    "lat": 23.7298,
+    "lon": 90.3854,
+    "tz": "Asia/Dhaka",
+    "elev": 14,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "কিশোরগঞ্জ",
+    "slug": "kishorganj",
+    "lat": 24.4394,
+    "lon": 90.7829,
+    "tz": "Asia/Dhaka",
+    "elev": 16,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "মাদারীপুর",
+    "slug": "madaripur",
+    "lat": 23.171,
+    "lon": 90.2094,
+    "tz": "Asia/Dhaka",
+    "elev": 10,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "মানিকগঞ্জ",
+    "slug": "manikganj",
+    "lat": 23.8577,
+    "lon": 90.0096,
+    "tz": "Asia/Dhaka",
+    "elev": 15,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "পালং",
+    "slug": "palang",
+    "lat": 23.2182,
+    "lon": 90.3508,
+    "tz": "Asia/Dhaka",
+    "elev": 12,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "গোপালগঞ্জ",
+    "slug": "gopalganj",
+    "lat": 23.2235,
+    "lon": 90.0604,
+    "tz": "Asia/Dhaka",
+    "elev": 9,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   }
+  ]
+ },
+ {
+  "name": "সিলেট",
+  "places": [
+   {
+    "name": "সিলেট",
+    "slug": "sylhet",
+    "lat": 24.899,
+    "lon": 91.872,
+    "tz": "Asia/Dhaka",
+    "elev": 26,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "হবিগঞ্জ",
+    "slug": "habiganj",
+    "lat": 24.3804,
+    "lon": 91.413,
+    "tz": "Asia/Dhaka",
+    "elev": 15,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "সুনামগঞ্জ",
+    "slug": "sunamganj",
+    "lat": 25.0689,
+    "lon": 91.4024,
+    "tz": "Asia/Dhaka",
+    "elev": 14,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "মৌলভীবাজার",
+    "slug": "maulavi-bazar",
+    "lat": 24.4889,
+    "lon": 91.7708,
+    "tz": "Asia/Dhaka",
+    "elev": 19,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   }
+  ]
+ },
+ {
+  "name": "ময়মনসিংহ",
+  "places": [
+   {
+    "name": "ময়মনসিংহ",
+    "slug": "mymensingh",
+    "lat": 24.7564,
+    "lon": 90.4065,
+    "tz": "Asia/Dhaka",
+    "elev": 19,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "জামালপুর",
+    "slug": "jamalpur",
+    "lat": 24.9197,
+    "lon": 89.9481,
+    "tz": "Asia/Dhaka",
+    "elev": 23,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "শেরপুর",
+    "slug": "sherpur",
+    "lat": 25.0188,
+    "lon": 90.0175,
+    "tz": "Asia/Dhaka",
+    "elev": 25,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "সরিষাবাড়ী",
+    "slug": "sarishabari",
+    "lat": 24.7513,
+    "lon": 89.8313,
+    "tz": "Asia/Dhaka",
+    "elev": 22,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "নেত্রকোণা",
+    "slug": "netrakona",
+    "lat": 24.8835,
+    "lon": 90.729,
+    "tz": "Asia/Dhaka",
+    "elev": 14,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "জামিরদিয়া",
+    "slug": "jamirdia",
+    "lat": 24.2943,
+    "lon": 90.3953,
+    "tz": "Asia/Dhaka",
+    "elev": 24,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "হবিরবাড়ী",
+    "slug": "habirbari",
+    "lat": 24.3167,
+    "lon": 90.4,
+    "tz": "Asia/Dhaka",
+    "elev": 15,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   }
+  ]
+ },
+ {
+  "name": "রাজশাহী",
+  "places": [
+   {
+    "name": "রাজশাহী",
+    "slug": "rajshahi",
+    "lat": 24.374,
+    "lon": 88.6011,
+    "tz": "Asia/Dhaka",
+    "elev": 23,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "মোহাম্মদপুর",
+    "slug": "mohammadpur",
+    "lat": 24.8984,
+    "lon": 88.5284,
+    "tz": "Asia/Dhaka",
+    "elev": 40,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "বগুড়া",
+    "slug": "bogura",
+    "lat": 24.851,
+    "lon": 89.3711,
+    "tz": "Asia/Dhaka",
+    "elev": 26,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "শিবগঞ্জ",
+    "slug": "shibganj",
+    "lat": 25.0015,
+    "lon": 89.3227,
+    "tz": "Asia/Dhaka",
+    "elev": 26,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "নাটোর",
+    "slug": "natore",
+    "lat": 24.4111,
+    "lon": 88.9867,
+    "tz": "Asia/Dhaka",
+    "elev": 22,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "চাঁপাইনবাবগঞ্জ",
+    "slug": "nawabganj",
+    "lat": 24.5903,
+    "lon": 88.2744,
+    "tz": "Asia/Dhaka",
+    "elev": 28,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "নওগাঁ",
+    "slug": "par-naogaon",
+    "lat": 24.8042,
+    "lon": 88.9488,
+    "tz": "Asia/Dhaka",
+    "elev": 20,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "পাবনা",
+    "slug": "pabna",
+    "lat": 24.0064,
+    "lon": 89.2372,
+    "tz": "Asia/Dhaka",
+    "elev": 19,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "পুঠিয়া",
+    "slug": "puthia",
+    "lat": 24.3654,
+    "lon": 88.8343,
+    "tz": "Asia/Dhaka",
+    "elev": 20,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "সিরাজগঞ্জ",
+    "slug": "sirajganj",
+    "lat": 24.4577,
+    "lon": 89.708,
+    "tz": "Asia/Dhaka",
+    "elev": 19,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "শাহজাদপুর",
+    "slug": "shahzadpur",
+    "lat": 24.1769,
+    "lon": 89.5988,
+    "tz": "Asia/Dhaka",
+    "elev": 16,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "ঈশ্বরদী",
+    "slug": "ishwardi",
+    "lat": 24.1286,
+    "lon": 89.0657,
+    "tz": "Asia/Dhaka",
+    "elev": 19,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "জয়পুরহাট",
+    "slug": "joypur-hat",
+    "lat": 25.1015,
+    "lon": 89.0273,
+    "tz": "Asia/Dhaka",
+    "elev": 24,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   }
+  ]
+ },
+ {
+  "name": "খুলনা",
+  "places": [
+   {
+    "name": "খুলনা",
+    "slug": "khulna",
+    "lat": 22.8098,
+    "lon": 89.5644,
+    "tz": "Asia/Dhaka",
+    "elev": 8,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "বাগেরহাট",
+    "slug": "bagerhat",
+    "lat": 22.6566,
+    "lon": 89.7912,
+    "tz": "Asia/Dhaka",
+    "elev": 7,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "যশোর",
+    "slug": "jessore",
+    "lat": 23.1697,
+    "lon": 89.2137,
+    "tz": "Asia/Dhaka",
+    "elev": 15,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "কুষ্টিয়া",
+    "slug": "kushtia",
+    "lat": 23.9028,
+    "lon": 89.1194,
+    "tz": "Asia/Dhaka",
+    "elev": 17,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "সাতক্ষীরা",
+    "slug": "satkhira",
+    "lat": 22.7082,
+    "lon": 89.0718,
+    "tz": "Asia/Dhaka",
+    "elev": 11,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "নড়াইল",
+    "slug": "narail",
+    "lat": 23.1551,
+    "lon": 89.4951,
+    "tz": "Asia/Dhaka",
+    "elev": 11,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   }
+  ]
+ },
+ {
+  "name": "চট্টগ্রাম",
+  "places": [
+   {
+    "name": "চট্টগ্রাম",
+    "slug": "chattogram",
+    "lat": 22.3384,
+    "lon": 91.8317,
+    "tz": "Asia/Dhaka",
+    "elev": 15,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "কুমিল্লা",
+    "slug": "comilla",
+    "lat": 23.4619,
+    "lon": 91.185,
+    "tz": "Asia/Dhaka",
+    "elev": 17,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "হাটহাজারী",
+    "slug": "hathazari",
+    "lat": 22.5052,
+    "lon": 91.8134,
+    "tz": "Asia/Dhaka",
+    "elev": 9,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "ব্রাহ্মণবাড়িয়া",
+    "slug": "brahmanbaria",
+    "lat": 23.9746,
+    "lon": 91.1123,
+    "tz": "Asia/Dhaka",
+    "elev": 15,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "কক্সবাজার",
+    "slug": "cox-s-bazar",
+    "lat": 21.4397,
+    "lon": 92.0096,
+    "tz": "Asia/Dhaka",
+    "elev": 2,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "চাঁদপুর",
+    "slug": "chandpur",
+    "lat": 23.2271,
+    "lon": 90.6543,
+    "tz": "Asia/Dhaka",
+    "elev": 13,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "আশুগঞ্জ",
+    "slug": "ashuganj-city",
+    "lat": 24.0402,
+    "lon": 91.0117,
+    "tz": "Asia/Dhaka",
+    "elev": 17,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "কর্ণফুলী",
+    "slug": "karnaphuli",
+    "lat": 22.6906,
+    "lon": 92.2347,
+    "tz": "Asia/Dhaka",
+    "elev": 46,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "মাইজদী",
+    "slug": "maijdi",
+    "lat": 22.8667,
+    "lon": 91.1,
+    "tz": "Asia/Dhaka",
+    "elev": 11,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "রাঙ্গামাটি",
+    "slug": "rangamati",
+    "lat": 22.6432,
+    "lon": 92.1919,
+    "tz": "Asia/Dhaka",
+    "elev": 44,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "বিবিরহাট",
+    "slug": "bibir-hat",
+    "lat": 22.6835,
+    "lon": 91.7906,
+    "tz": "Asia/Dhaka",
+    "elev": 13,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "ফেনী",
+    "slug": "feni",
+    "lat": 23.0144,
+    "lon": 91.3966,
+    "tz": "Asia/Dhaka",
+    "elev": 12,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "লাকসাম",
+    "slug": "laksham",
+    "lat": 23.2402,
+    "lon": 91.1214,
+    "tz": "Asia/Dhaka",
+    "elev": 10,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "রায়পুর",
+    "slug": "raipur",
+    "lat": 23.0391,
+    "lon": 90.7681,
+    "tz": "Asia/Dhaka",
+    "elev": 13,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "লক্ষ্মীপুর",
+    "slug": "lakshmipur",
+    "lat": 22.9443,
+    "lon": 90.83,
+    "tz": "Asia/Dhaka",
+    "elev": 11,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "রামগঞ্জ",
+    "slug": "ramganj",
+    "lat": 23.1006,
+    "lon": 90.8499,
+    "tz": "Asia/Dhaka",
+    "elev": 14,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "বান্দরবান",
+    "slug": "bandarban",
+    "lat": 22.1953,
+    "lon": 92.2195,
+    "tz": "Asia/Dhaka",
+    "elev": 24,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "সন্দ্বীপ",
+    "slug": "sandwip",
+    "lat": 22.5141,
+    "lon": 91.4549,
+    "tz": "Asia/Dhaka",
+    "elev": 7,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "সাতকানিয়া",
+    "slug": "satkania",
+    "lat": 22.0764,
+    "lon": 92.0495,
+    "tz": "Asia/Dhaka",
+    "elev": 13,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "পটিয়া",
+    "slug": "patiya",
+    "lat": 22.2954,
+    "lon": 91.979,
+    "tz": "Asia/Dhaka",
+    "elev": 11,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "খাগড়াছড়ি",
+    "slug": "khagrachhari",
+    "lat": 23.1079,
+    "lon": 91.9701,
+    "tz": "Asia/Dhaka",
+    "elev": 47,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   }
+  ]
+ },
+ {
+  "name": "বরিশাল",
+  "places": [
+   {
+    "name": "বরিশাল",
+    "slug": "barishal",
+    "lat": 22.705,
+    "lon": 90.3701,
+    "tz": "Asia/Dhaka",
+    "elev": 10,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "ভোলা",
+    "slug": "bhola",
+    "lat": 22.6876,
+    "lon": 90.644,
+    "tz": "Asia/Dhaka",
+    "elev": 7,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "পটুয়াখালী",
+    "slug": "patuakhali",
+    "lat": 22.3683,
+    "lon": 90.3458,
+    "tz": "Asia/Dhaka",
+    "elev": 10,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   },
+   {
+    "name": "পিরোজপুর",
+    "slug": "pirojpur",
+    "lat": 22.5797,
+    "lon": 89.9752,
+    "tz": "Asia/Dhaka",
+    "elev": 10,
+    "cc": "BD",
+    "method": "karachi",
+    "hanafi": true
+   }
+  ]
+ }
+]
