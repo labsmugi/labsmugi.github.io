@@ -1,0 +1,2079 @@
+[
+ {
+  "name": "Johor",
+  "places": [
+   {
+    "name": "Batu Pahat",
+    "slug": "batu-pahat",
+    "lat": 1.8548,
+    "lon": 102.9325,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 7,
+    "zone": "JHR04"
+   },
+   {
+    "name": "Gemas",
+    "slug": "gemas",
+    "lat": 2.1703,
+    "lon": 102.7156,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "JHR04"
+   },
+   {
+    "name": "Johor Bahru",
+    "slug": "johor-bahru",
+    "lat": 1.4655,
+    "lon": 103.7578,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 32,
+    "zone": "JHR02"
+   },
+   {
+    "name": "Kluang",
+    "slug": "kluang",
+    "lat": 2.2,
+    "lon": 103.3333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 62,
+    "zone": "JHR03"
+   },
+   {
+    "name": "Kota Tinggi",
+    "slug": "kota-tinggi",
+    "lat": 1.7381,
+    "lon": 103.8999,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 17,
+    "zone": "JHR02"
+   },
+   {
+    "name": "Kulai",
+    "slug": "kulai",
+    "lat": 1.6561,
+    "lon": 103.6032,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 33,
+    "zone": "JHR02"
+   },
+   {
+    "name": "Mersing",
+    "slug": "mersing",
+    "lat": 2.4312,
+    "lon": 103.8405,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 8,
+    "zone": "JHR02"
+   },
+   {
+    "name": "Muar",
+    "slug": "muar",
+    "lat": 2.0442,
+    "lon": 102.5689,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 6,
+    "zone": "JHR04"
+   },
+   {
+    "name": "Pontian",
+    "slug": "pontian",
+    "lat": 1.5059,
+    "lon": 103.3816,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 9,
+    "zone": "JHR03"
+   },
+   {
+    "name": "Pulau Aur",
+    "slug": "pulau-aur",
+    "lat": 2.45,
+    "lon": 104.52,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "JHR01"
+   },
+   {
+    "name": "Segamat",
+    "slug": "segamat",
+    "lat": 2.5148,
+    "lon": 102.8158,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 35,
+    "zone": "JHR04"
+   },
+   {
+    "name": "Tangkak",
+    "slug": "tangkak",
+    "lat": 2.2673,
+    "lon": 102.5453,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 20,
+    "zone": "JHR04"
+   }
+  ]
+ },
+ {
+  "name": "Kedah",
+  "places": [
+   {
+    "name": "Alor Setar",
+    "slug": "alor-setar",
+    "lat": 6.121,
+    "lon": 100.3601,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 7,
+    "zone": "KDH01"
+   },
+   {
+    "name": "Baling",
+    "slug": "baling",
+    "lat": 5.6781,
+    "lon": 100.9177,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 59,
+    "zone": "KDH04"
+   },
+   {
+    "name": "Bandar Baharu",
+    "slug": "bandar-baharu",
+    "lat": 5.1343,
+    "lon": 100.4955,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 4,
+    "zone": "KDH05"
+   },
+   {
+    "name": "Kota Setar",
+    "slug": "kota-setar",
+    "lat": 6.121,
+    "lon": 100.3601,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 7,
+    "zone": "KDH01"
+   },
+   {
+    "name": "Kuala Muda",
+    "slug": "kuala-muda",
+    "lat": 5.5833,
+    "lon": 100.3833,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 10,
+    "zone": "KDH02"
+   },
+   {
+    "name": "Kubang Pasu",
+    "slug": "kubang-pasu",
+    "lat": 6.4051,
+    "lon": 100.4398,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 41,
+    "zone": "KDH01"
+   },
+   {
+    "name": "Kulim",
+    "slug": "kulim",
+    "lat": 5.365,
+    "lon": 100.5618,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 54,
+    "zone": "KDH05"
+   },
+   {
+    "name": "Langkawi",
+    "slug": "langkawi",
+    "lat": 6.3561,
+    "lon": 99.7837,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 28,
+    "zone": "KDH06"
+   },
+   {
+    "name": "Padang Terap",
+    "slug": "padang-terap",
+    "lat": 6.3019,
+    "lon": 100.6576,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 34,
+    "zone": "KDH03"
+   },
+   {
+    "name": "Pendang",
+    "slug": "pendang",
+    "lat": 5.9952,
+    "lon": 100.4788,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 8,
+    "zone": "KDH02"
+   },
+   {
+    "name": "Pokok Sena",
+    "slug": "pokok-sena",
+    "lat": 6.1706,
+    "lon": 100.5189,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 24,
+    "zone": "KDH01"
+   },
+   {
+    "name": "Sik",
+    "slug": "sik",
+    "lat": 5.8333,
+    "lon": 100.75,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 76,
+    "zone": "KDH03"
+   },
+   {
+    "name": "Sungai Petani",
+    "slug": "sungai-petani",
+    "lat": 5.647,
+    "lon": 100.4877,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 17,
+    "zone": "KDH02"
+   },
+   {
+    "name": "Yan",
+    "slug": "yan",
+    "lat": 5.7989,
+    "lon": 100.3726,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 9,
+    "zone": "KDH02"
+   }
+  ]
+ },
+ {
+  "name": "Kelantan",
+  "places": [
+   {
+    "name": "Bachok",
+    "slug": "bachok",
+    "lat": 6.0667,
+    "lon": 102.4,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 6,
+    "zone": "KTN01"
+   },
+   {
+    "name": "Chiku",
+    "slug": "chiku",
+    "lat": 5.9098,
+    "lon": 102.2183,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "KTN01"
+   },
+   {
+    "name": "Gua Musang",
+    "slug": "gua-musang",
+    "lat": 4.8844,
+    "lon": 101.9686,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 90,
+    "zone": "KTN02"
+   },
+   {
+    "name": "Jeli",
+    "slug": "jeli",
+    "lat": 5.5876,
+    "lon": 101.81,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 899,
+    "zone": "KTN02"
+   },
+   {
+    "name": "Kota Bharu",
+    "slug": "kota-bharu",
+    "lat": 6.1236,
+    "lon": 102.2433,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 10,
+    "zone": "KTN01"
+   },
+   {
+    "name": "Kuala Krai",
+    "slug": "kuala-krai",
+    "lat": 5.5736,
+    "lon": 102.2141,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 41,
+    "zone": "KTN01"
+   },
+   {
+    "name": "Lojing",
+    "slug": "lojing",
+    "lat": 5.236,
+    "lon": 101.8893,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "KTN02"
+   },
+   {
+    "name": "Machang",
+    "slug": "machang",
+    "lat": 5.7641,
+    "lon": 102.2141,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 30,
+    "zone": "KTN01"
+   },
+   {
+    "name": "Pasir Mas",
+    "slug": "pasir-mas",
+    "lat": 6.0493,
+    "lon": 102.1399,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 13,
+    "zone": "KTN01"
+   },
+   {
+    "name": "Pasir Puteh",
+    "slug": "pasir-puteh",
+    "lat": 5.8333,
+    "lon": 102.4,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 7,
+    "zone": "KTN01"
+   },
+   {
+    "name": "Tanah Merah",
+    "slug": "tanah-merah",
+    "lat": 5.6667,
+    "lon": 102.0,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 80,
+    "zone": "KTN01"
+   },
+   {
+    "name": "Tumpat",
+    "slug": "tumpat",
+    "lat": 6.201,
+    "lon": 102.1352,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 2,
+    "zone": "KTN01"
+   }
+  ]
+ },
+ {
+  "name": "Melaka",
+  "places": [
+   {
+    "name": "Melaka",
+    "slug": "melaka",
+    "lat": 2.196,
+    "lon": 102.2405,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 6,
+    "zone": "MLK01"
+   }
+  ]
+ },
+ {
+  "name": "Negeri Sembilan",
+  "places": [
+   {
+    "name": "Jelebu",
+    "slug": "jelebu",
+    "lat": 2.9395,
+    "lon": 102.0704,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 132,
+    "zone": "NGS02"
+   },
+   {
+    "name": "Jempol",
+    "slug": "jempol",
+    "lat": 2.8026,
+    "lon": 102.3682,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 68,
+    "zone": "NGS01"
+   },
+   {
+    "name": "Kuala Pilah",
+    "slug": "kuala-pilah",
+    "lat": 2.7389,
+    "lon": 102.2487,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 93,
+    "zone": "NGS02"
+   },
+   {
+    "name": "Port Dickson",
+    "slug": "port-dickson",
+    "lat": 2.5246,
+    "lon": 101.7965,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": -9999,
+    "zone": "NGS03"
+   },
+   {
+    "name": "Rembau",
+    "slug": "rembau",
+    "lat": 2.5897,
+    "lon": 102.0913,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 46,
+    "zone": "NGS02"
+   },
+   {
+    "name": "Seremban",
+    "slug": "seremban",
+    "lat": 2.7297,
+    "lon": 101.9381,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 59,
+    "zone": "NGS03"
+   },
+   {
+    "name": "Tampin",
+    "slug": "tampin",
+    "lat": 2.4701,
+    "lon": 102.2302,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 61,
+    "zone": "NGS01"
+   }
+  ]
+ },
+ {
+  "name": "Pahang",
+  "places": [
+   {
+    "name": "Bentong",
+    "slug": "bentong",
+    "lat": 3.5316,
+    "lon": 101.9038,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 95,
+    "zone": "PHG04"
+   },
+   {
+    "name": "Bera",
+    "slug": "bera",
+    "lat": 3.3333,
+    "lon": 102.5,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 32,
+    "zone": "PHG03"
+   },
+   {
+    "name": "Bukit Fraser",
+    "slug": "bukit-fraser",
+    "lat": 3.7126,
+    "lon": 101.7412,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 1283,
+    "zone": "PHG06"
+   },
+   {
+    "name": "Bukit Tinggi",
+    "slug": "bukit-tinggi",
+    "lat": 3.35,
+    "lon": 101.82,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "PHG05"
+   },
+   {
+    "name": "Cameron Highlands",
+    "slug": "cameron-highlands",
+    "lat": 4.4709,
+    "lon": 101.3764,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 1442,
+    "zone": "PHG06"
+   },
+   {
+    "name": "Chenor",
+    "slug": "chenor",
+    "lat": 3.48,
+    "lon": 102.5923,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 30,
+    "zone": "PHG03"
+   },
+   {
+    "name": "Genting Highlands",
+    "slug": "genting-highlands",
+    "lat": 3.4245,
+    "lon": 101.7916,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 1734,
+    "zone": "PHG06"
+   },
+   {
+    "name": "Genting Sempah",
+    "slug": "genting-sempah",
+    "lat": 3.37,
+    "lon": 101.79,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "PHG05"
+   },
+   {
+    "name": "Janda Baik",
+    "slug": "janda-baik",
+    "lat": 3.33,
+    "lon": 101.86,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "PHG05"
+   },
+   {
+    "name": "Jengka",
+    "slug": "jengka",
+    "lat": 3.5572,
+    "lon": 102.5291,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "PHG03"
+   },
+   {
+    "name": "Jerantut",
+    "slug": "jerantut",
+    "lat": 3.936,
+    "lon": 102.3626,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 73,
+    "zone": "PHG03"
+   },
+   {
+    "name": "Kuantan",
+    "slug": "kuantan",
+    "lat": 3.8077,
+    "lon": 103.326,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 12,
+    "zone": "PHG02"
+   },
+   {
+    "name": "Lipis",
+    "slug": "lipis",
+    "lat": 4.3448,
+    "lon": 101.9159,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 91,
+    "zone": "PHG04"
+   },
+   {
+    "name": "Maran",
+    "slug": "maran",
+    "lat": 3.586,
+    "lon": 102.773,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 29,
+    "zone": "PHG03"
+   },
+   {
+    "name": "Muadzam Shah",
+    "slug": "muadzam-shah",
+    "lat": 3.0627,
+    "lon": 103.0892,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 36,
+    "zone": "PHG02"
+   },
+   {
+    "name": "Pekan",
+    "slug": "pekan",
+    "lat": 3.4836,
+    "lon": 103.3996,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 11,
+    "zone": "PHG02"
+   },
+   {
+    "name": "Pulau Tioman",
+    "slug": "pulau-tioman",
+    "lat": 2.79,
+    "lon": 104.17,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "PHG01"
+   },
+   {
+    "name": "Raub",
+    "slug": "raub",
+    "lat": 3.7899,
+    "lon": 101.857,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 149,
+    "zone": "PHG04"
+   },
+   {
+    "name": "Rompin",
+    "slug": "rompin",
+    "lat": 2.8167,
+    "lon": 103.4833,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 6,
+    "zone": "PHG07"
+   },
+   {
+    "name": "Temerloh",
+    "slug": "temerloh",
+    "lat": 3.4506,
+    "lon": 102.4176,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 45,
+    "zone": "PHG03"
+   }
+  ]
+ },
+ {
+  "name": "Perak",
+  "places": [
+   {
+    "name": "Bagan Datuk",
+    "slug": "bagan-datuk",
+    "lat": 3.9899,
+    "lon": 100.7819,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 8,
+    "zone": "PRK05"
+   },
+   {
+    "name": "Bagan Serai",
+    "slug": "bagan-serai",
+    "lat": 5.0108,
+    "lon": 100.541,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 3,
+    "zone": "PRK06"
+   },
+   {
+    "name": "Batu Gajah",
+    "slug": "batu-gajah",
+    "lat": 4.4692,
+    "lon": 101.0411,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 31,
+    "zone": "PRK02"
+   },
+   {
+    "name": "Belum",
+    "slug": "belum",
+    "lat": 5.3333,
+    "lon": 101.3667,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "PRK04"
+   },
+   {
+    "name": "Beruas",
+    "slug": "beruas",
+    "lat": 4.5,
+    "lon": 100.7833,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 19,
+    "zone": "PRK05"
+   },
+   {
+    "name": "Bukit Larut",
+    "slug": "bukit-larut",
+    "lat": 4.8625,
+    "lon": 100.7926,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 1032,
+    "zone": "PRK07"
+   },
+   {
+    "name": "Gerik",
+    "slug": "gerik",
+    "lat": 5.4167,
+    "lon": 101.1333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 116,
+    "zone": "PRK03"
+   },
+   {
+    "name": "Ipoh",
+    "slug": "ipoh",
+    "lat": 4.5841,
+    "lon": 101.0829,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 45,
+    "zone": "PRK02"
+   },
+   {
+    "name": "Kampar",
+    "slug": "kampar",
+    "lat": 4.3,
+    "lon": 101.15,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 25,
+    "zone": "PRK02"
+   },
+   {
+    "name": "Kampung Gajah",
+    "slug": "kampung-gajah",
+    "lat": 4.1864,
+    "lon": 100.9396,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 13,
+    "zone": "PRK05"
+   },
+   {
+    "name": "Kuala Kangsar",
+    "slug": "kuala-kangsar",
+    "lat": 4.7667,
+    "lon": 100.9333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 42,
+    "zone": "PRK02"
+   },
+   {
+    "name": "Lenggong",
+    "slug": "lenggong",
+    "lat": 5.1063,
+    "lon": 100.9679,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 97,
+    "zone": "PRK03"
+   },
+   {
+    "name": "Lumut",
+    "slug": "lumut",
+    "lat": 4.2323,
+    "lon": 100.6298,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 13,
+    "zone": "PRK05"
+   },
+   {
+    "name": "Parit",
+    "slug": "parit",
+    "lat": 4.4833,
+    "lon": 100.9167,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 44,
+    "zone": "PRK05"
+   },
+   {
+    "name": "Parit Buntar",
+    "slug": "parit-buntar",
+    "lat": 5.1267,
+    "lon": 100.4932,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 5,
+    "zone": "PRK06"
+   },
+   {
+    "name": "Pengkalan Hulu",
+    "slug": "pengkalan-hulu",
+    "lat": 5.7167,
+    "lon": 101.0,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 340,
+    "zone": "PRK03"
+   },
+   {
+    "name": "Pulau Pangkor",
+    "slug": "pulau-pangkor",
+    "lat": 4.2489,
+    "lon": 100.8446,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "PRK05"
+   },
+   {
+    "name": "Selama",
+    "slug": "selama",
+    "lat": 5.2236,
+    "lon": 100.6926,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 24,
+    "zone": "PRK06"
+   },
+   {
+    "name": "Seri Iskandar",
+    "slug": "seri-iskandar",
+    "lat": 4.3599,
+    "lon": 100.9849,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 25,
+    "zone": "PRK05"
+   },
+   {
+    "name": "Sitiawan",
+    "slug": "sitiawan",
+    "lat": 4.2168,
+    "lon": 100.6996,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 9,
+    "zone": "PRK05"
+   },
+   {
+    "name": "Slim River",
+    "slug": "slim-river",
+    "lat": 3.8333,
+    "lon": 101.4,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 29,
+    "zone": "PRK01"
+   },
+   {
+    "name": "Sungai Siput",
+    "slug": "sungai-siput",
+    "lat": 4.3945,
+    "lon": 101.1947,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 48,
+    "zone": "PRK02"
+   },
+   {
+    "name": "Taiping",
+    "slug": "taiping",
+    "lat": 4.85,
+    "lon": 100.7333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 19,
+    "zone": "PRK06"
+   },
+   {
+    "name": "Tanjung Malim",
+    "slug": "tanjung-malim",
+    "lat": 3.681,
+    "lon": 101.5198,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 44,
+    "zone": "PRK01"
+   },
+   {
+    "name": "Tapah",
+    "slug": "tapah",
+    "lat": 4.1833,
+    "lon": 101.2667,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 79,
+    "zone": "PRK01"
+   },
+   {
+    "name": "Teluk Intan",
+    "slug": "teluk-intan",
+    "lat": 4.0222,
+    "lon": 101.0208,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 4,
+    "zone": "PRK05"
+   },
+   {
+    "name": "Temengor",
+    "slug": "temengor",
+    "lat": 5.3333,
+    "lon": 101.3667,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 335,
+    "zone": "PRK04"
+   }
+  ]
+ },
+ {
+  "name": "Perlis",
+  "places": [
+   {
+    "name": "Arau",
+    "slug": "arau",
+    "lat": 6.4294,
+    "lon": 100.2817,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 16,
+    "zone": "PLS01"
+   },
+   {
+    "name": "Kangar",
+    "slug": "kangar",
+    "lat": 6.4414,
+    "lon": 100.1986,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 8,
+    "zone": "PLS01"
+   },
+   {
+    "name": "Padang Besar",
+    "slug": "padang-besar",
+    "lat": 6.6623,
+    "lon": 100.3142,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 64,
+    "zone": "PLS01"
+   }
+  ]
+ },
+ {
+  "name": "Pulau Pinang",
+  "places": [
+   {
+    "name": "Bukit Mertajam",
+    "slug": "bukit-mertajam",
+    "lat": 5.363,
+    "lon": 100.4667,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 27,
+    "zone": "PNG01"
+   },
+   {
+    "name": "Butterworth",
+    "slug": "butterworth",
+    "lat": 5.3991,
+    "lon": 100.3638,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 6,
+    "zone": "PNG01"
+   },
+   {
+    "name": "George Town",
+    "slug": "george-town",
+    "lat": 5.4112,
+    "lon": 100.3354,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 14,
+    "zone": "PNG01"
+   },
+   {
+    "name": "Pulau Pinang",
+    "slug": "pulau-pinang",
+    "lat": 5.3911,
+    "lon": 100.3886,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "PNG01"
+   }
+  ]
+ },
+ {
+  "name": "Sabah",
+  "places": [
+   {
+    "name": "Balong",
+    "slug": "balong",
+    "lat": 4.3612,
+    "lon": 117.7157,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "SBH04"
+   },
+   {
+    "name": "Bandar Sandakan",
+    "slug": "bandar-sandakan",
+    "lat": 5.6471,
+    "lon": 118.2303,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "SBH01"
+   },
+   {
+    "name": "Bandar Tawau",
+    "slug": "bandar-tawau",
+    "lat": 4.3612,
+    "lon": 117.7157,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "SBH04"
+   },
+   {
+    "name": "Beaufort",
+    "slug": "beaufort",
+    "lat": 5.3473,
+    "lon": 115.7455,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 18,
+    "zone": "SBH09"
+   },
+   {
+    "name": "Beluran",
+    "slug": "beluran",
+    "lat": 5.8956,
+    "lon": 117.5557,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 29,
+    "zone": "SBH02"
+   },
+   {
+    "name": "Bukit Garam",
+    "slug": "bukit-garam",
+    "lat": 5.4935,
+    "lon": 117.8335,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 22,
+    "zone": "SBH01"
+   },
+   {
+    "name": "Kalabakan",
+    "slug": "kalabakan",
+    "lat": 4.4167,
+    "lon": 117.4833,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 44,
+    "zone": "SBH04"
+   },
+   {
+    "name": "Keningau",
+    "slug": "keningau",
+    "lat": 5.3378,
+    "lon": 116.1602,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 277,
+    "zone": "SBH08"
+   },
+   {
+    "name": "Kota Belud",
+    "slug": "kota-belud",
+    "lat": 6.351,
+    "lon": 116.4305,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 31,
+    "zone": "SBH07"
+   },
+   {
+    "name": "Kota Kinabalu",
+    "slug": "kota-kinabalu",
+    "lat": 5.9749,
+    "lon": 116.0724,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 5,
+    "zone": "SBH07"
+   },
+   {
+    "name": "Kota Marudu",
+    "slug": "kota-marudu",
+    "lat": 6.4167,
+    "lon": 116.75,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 474,
+    "zone": "SBH05"
+   },
+   {
+    "name": "Kuala Penyu",
+    "slug": "kuala-penyu",
+    "lat": 5.5714,
+    "lon": 115.5984,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 12,
+    "zone": "SBH09"
+   },
+   {
+    "name": "Kuamut",
+    "slug": "kuamut",
+    "lat": 5.2244,
+    "lon": 117.494,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 25,
+    "zone": "SBH02"
+   },
+   {
+    "name": "Kudat",
+    "slug": "kudat",
+    "lat": 6.8873,
+    "lon": 116.8236,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 1,
+    "zone": "SBH05"
+   },
+   {
+    "name": "Kunak",
+    "slug": "kunak",
+    "lat": 4.6858,
+    "lon": 118.2491,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 11,
+    "zone": "SBH03"
+   },
+   {
+    "name": "Lahad Datu",
+    "slug": "lahad-datu",
+    "lat": 5.023,
+    "lon": 118.329,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 7,
+    "zone": "SBH03"
+   },
+   {
+    "name": "Long Pasia",
+    "slug": "long-pasia",
+    "lat": 4.4062,
+    "lon": 115.7306,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 1008,
+    "zone": "SBH09"
+   },
+   {
+    "name": "Membakut",
+    "slug": "membakut",
+    "lat": 5.4748,
+    "lon": 115.803,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 11,
+    "zone": "SBH09"
+   },
+   {
+    "name": "Merotai",
+    "slug": "merotai",
+    "lat": 4.4222,
+    "lon": 117.7725,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 22,
+    "zone": "SBH04"
+   },
+   {
+    "name": "Nabawan",
+    "slug": "nabawan",
+    "lat": 5.0393,
+    "lon": 116.4274,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 459,
+    "zone": "SBH08"
+   },
+   {
+    "name": "Papar",
+    "slug": "papar",
+    "lat": 5.7333,
+    "lon": 115.9333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 6,
+    "zone": "SBH07"
+   },
+   {
+    "name": "Penampang",
+    "slug": "penampang",
+    "lat": 5.8333,
+    "lon": 116.25,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 568,
+    "zone": "SBH07"
+   },
+   {
+    "name": "Pensiangan",
+    "slug": "pensiangan",
+    "lat": 4.55,
+    "lon": 116.3167,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 309,
+    "zone": "SBH08"
+   },
+   {
+    "name": "Pinangah",
+    "slug": "pinangah",
+    "lat": 5.2104,
+    "lon": 116.8345,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 65,
+    "zone": "SBH02"
+   },
+   {
+    "name": "Pitas",
+    "slug": "pitas",
+    "lat": 6.7278,
+    "lon": 117.0578,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 13,
+    "zone": "SBH05"
+   },
+   {
+    "name": "Pulau Banggi",
+    "slug": "pulau-banggi",
+    "lat": 6.6773,
+    "lon": 116.8771,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "SBH05"
+   },
+   {
+    "name": "Putatan",
+    "slug": "putatan",
+    "lat": 5.9258,
+    "lon": 116.0609,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 6,
+    "zone": "SBH07"
+   },
+   {
+    "name": "Ranau",
+    "slug": "ranau",
+    "lat": 5.9538,
+    "lon": 116.6641,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 570,
+    "zone": "SBH07"
+   },
+   {
+    "name": "Sahabat",
+    "slug": "sahabat",
+    "lat": 4.8421,
+    "lon": 118.5232,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "SBH03"
+   },
+   {
+    "name": "Sandakan",
+    "slug": "sandakan",
+    "lat": 5.8402,
+    "lon": 118.1179,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 10,
+    "zone": "SBH01"
+   },
+   {
+    "name": "Semawang",
+    "slug": "semawang",
+    "lat": 5.9193,
+    "lon": 117.7619,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 1,
+    "zone": "SBH01"
+   },
+   {
+    "name": "Semporna",
+    "slug": "semporna",
+    "lat": 4.4818,
+    "lon": 118.6112,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 7,
+    "zone": "SBH03"
+   },
+   {
+    "name": "Silabukan",
+    "slug": "silabukan",
+    "lat": 5.0012,
+    "lon": 118.5401,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 13,
+    "zone": "SBH03"
+   },
+   {
+    "name": "Sipitang",
+    "slug": "sipitang",
+    "lat": 5.079,
+    "lon": 115.5496,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 9,
+    "zone": "SBH09"
+   },
+   {
+    "name": "Sukau",
+    "slug": "sukau",
+    "lat": 5.5302,
+    "lon": 118.2933,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 5,
+    "zone": "SBH01"
+   },
+   {
+    "name": "Tambisan",
+    "slug": "tambisan",
+    "lat": 5.4523,
+    "lon": 119.145,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 9,
+    "zone": "SBH01"
+   },
+   {
+    "name": "Tambunan",
+    "slug": "tambunan",
+    "lat": 5.7167,
+    "lon": 116.4,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 630,
+    "zone": "SBH08"
+   },
+   {
+    "name": "Tawau",
+    "slug": "tawau",
+    "lat": 4.2448,
+    "lon": 117.8911,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 12,
+    "zone": "SBH04"
+   },
+   {
+    "name": "Telupid",
+    "slug": "telupid",
+    "lat": 5.65,
+    "lon": 117.1167,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 115,
+    "zone": "SBH02"
+   },
+   {
+    "name": "Temanggong",
+    "slug": "temanggong",
+    "lat": 5.6471,
+    "lon": 118.2303,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "SBH01"
+   },
+   {
+    "name": "Tenom",
+    "slug": "tenom",
+    "lat": 5.1192,
+    "lon": 115.9372,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 201,
+    "zone": "SBH09"
+   },
+   {
+    "name": "Terusan",
+    "slug": "terusan",
+    "lat": 6.4179,
+    "lon": 117.6981,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 7,
+    "zone": "SBH02"
+   },
+   {
+    "name": "Tuaran",
+    "slug": "tuaran",
+    "lat": 6.0833,
+    "lon": 116.3333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 248,
+    "zone": "SBH07"
+   },
+   {
+    "name": "Tungku",
+    "slug": "tungku",
+    "lat": 5.0186,
+    "lon": 118.8869,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 5,
+    "zone": "SBH03"
+   },
+   {
+    "name": "Weston",
+    "slug": "weston",
+    "lat": 5.2167,
+    "lon": 115.6167,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 15,
+    "zone": "SBH09"
+   }
+  ]
+ },
+ {
+  "name": "Sarawak",
+  "places": [
+   {
+    "name": "Balingian",
+    "slug": "balingian",
+    "lat": 2.9306,
+    "lon": 112.5413,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 3,
+    "zone": "SWK04"
+   },
+   {
+    "name": "Bau",
+    "slug": "bau",
+    "lat": 1.4167,
+    "lon": 110.15,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 21,
+    "zone": "SWK08"
+   },
+   {
+    "name": "Bekenu",
+    "slug": "bekenu",
+    "lat": 4.0539,
+    "lon": 113.8441,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 4,
+    "zone": "SWK02"
+   },
+   {
+    "name": "Belaga",
+    "slug": "belaga",
+    "lat": 2.5,
+    "lon": 114.5,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 564,
+    "zone": "SWK03"
+   },
+   {
+    "name": "Belawai",
+    "slug": "belawai",
+    "lat": 2.2333,
+    "lon": 111.2167,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 6,
+    "zone": "SWK05"
+   },
+   {
+    "name": "Betong",
+    "slug": "betong",
+    "lat": 1.4,
+    "lon": 111.5167,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 41,
+    "zone": "SWK06"
+   },
+   {
+    "name": "Bintangor",
+    "slug": "bintangor",
+    "lat": 2.1667,
+    "lon": 111.6333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 6,
+    "zone": "SWK05"
+   },
+   {
+    "name": "Bintulu",
+    "slug": "bintulu",
+    "lat": 3.1667,
+    "lon": 113.0333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 8,
+    "zone": "SWK03"
+   },
+   {
+    "name": "Dalat",
+    "slug": "dalat",
+    "lat": 2.6667,
+    "lon": 112.0833,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 28,
+    "zone": "SWK04"
+   },
+   {
+    "name": "Daro",
+    "slug": "daro",
+    "lat": 2.5169,
+    "lon": 111.43,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 1,
+    "zone": "SWK05"
+   },
+   {
+    "name": "Debak",
+    "slug": "debak",
+    "lat": 1.5667,
+    "lon": 111.4167,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 14,
+    "zone": "SWK06"
+   },
+   {
+    "name": "Engkelili",
+    "slug": "engkelili",
+    "lat": 1.1386,
+    "lon": 111.6667,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 11,
+    "zone": "SWK06"
+   },
+   {
+    "name": "Igan",
+    "slug": "igan",
+    "lat": 2.8228,
+    "lon": 111.7079,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 1,
+    "zone": "SWK04"
+   },
+   {
+    "name": "Julau",
+    "slug": "julau",
+    "lat": 2.0167,
+    "lon": 111.9167,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 27,
+    "zone": "SWK05"
+   },
+   {
+    "name": "Kabong",
+    "slug": "kabong",
+    "lat": 1.8333,
+    "lon": 111.1667,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 12,
+    "zone": "SWK06"
+   },
+   {
+    "name": "Kanowit",
+    "slug": "kanowit",
+    "lat": 2.1,
+    "lon": 112.15,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 16,
+    "zone": "SWK04"
+   },
+   {
+    "name": "Kapit",
+    "slug": "kapit",
+    "lat": 1.9955,
+    "lon": 112.9325,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 43,
+    "zone": "SWK04"
+   },
+   {
+    "name": "Kuching",
+    "slug": "kuching",
+    "lat": 1.55,
+    "lon": 110.3333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 8,
+    "zone": "SWK08"
+   },
+   {
+    "name": "Lawas",
+    "slug": "lawas",
+    "lat": 4.8604,
+    "lon": 115.409,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 10,
+    "zone": "SWK01"
+   },
+   {
+    "name": "Limbang",
+    "slug": "limbang",
+    "lat": 4.7548,
+    "lon": 115.0101,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 5,
+    "zone": "SWK01"
+   },
+   {
+    "name": "Lingga",
+    "slug": "lingga",
+    "lat": 1.35,
+    "lon": 111.1667,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 6,
+    "zone": "SWK06"
+   },
+   {
+    "name": "Lubok Antu",
+    "slug": "lubok-antu",
+    "lat": 1.0419,
+    "lon": 111.834,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 34,
+    "zone": "SWK06"
+   },
+   {
+    "name": "Lundu",
+    "slug": "lundu",
+    "lat": 1.6744,
+    "lon": 109.8517,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 9,
+    "zone": "SWK08"
+   },
+   {
+    "name": "Marudi",
+    "slug": "marudi",
+    "lat": 4.1833,
+    "lon": 114.3167,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 15,
+    "zone": "SWK02"
+   },
+   {
+    "name": "Matu",
+    "slug": "matu",
+    "lat": 2.6833,
+    "lon": 111.5333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 12,
+    "zone": "SWK05"
+   },
+   {
+    "name": "Meludam",
+    "slug": "meludam",
+    "lat": 1.3556,
+    "lon": 110.75,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "SWK07"
+   },
+   {
+    "name": "Miri",
+    "slug": "miri",
+    "lat": 4.3993,
+    "lon": 113.9916,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 8,
+    "zone": "SWK02"
+   },
+   {
+    "name": "Mukah",
+    "slug": "mukah",
+    "lat": 2.6667,
+    "lon": 112.25,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 11,
+    "zone": "SWK04"
+   },
+   {
+    "name": "Niah",
+    "slug": "niah",
+    "lat": 3.862,
+    "lon": 113.7152,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 16,
+    "zone": "SWK02"
+   },
+   {
+    "name": "Oya",
+    "slug": "oya",
+    "lat": 2.8667,
+    "lon": 111.8833,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 3,
+    "zone": "SWK04"
+   },
+   {
+    "name": "Pandan",
+    "slug": "pandan",
+    "lat": 3.15,
+    "lon": 113.3667,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 6,
+    "zone": "SWK03"
+   },
+   {
+    "name": "Pusa",
+    "slug": "pusa",
+    "lat": 1.5833,
+    "lon": 111.25,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 2,
+    "zone": "SWK06"
+   },
+   {
+    "name": "Rajang",
+    "slug": "rajang",
+    "lat": 2.15,
+    "lon": 111.25,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 1,
+    "zone": "SWK05"
+   },
+   {
+    "name": "Roban",
+    "slug": "roban",
+    "lat": 1.9167,
+    "lon": 111.3333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 17,
+    "zone": "SWK06"
+   },
+   {
+    "name": "Samarahan",
+    "slug": "samarahan",
+    "lat": 1.3556,
+    "lon": 110.75,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "SWK07"
+   },
+   {
+    "name": "Saratok",
+    "slug": "saratok",
+    "lat": 1.7333,
+    "lon": 111.3333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 8,
+    "zone": "SWK06"
+   },
+   {
+    "name": "Sarikei",
+    "slug": "sarikei",
+    "lat": 2.1167,
+    "lon": 111.5167,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 11,
+    "zone": "SWK05"
+   },
+   {
+    "name": "Sebauh",
+    "slug": "sebauh",
+    "lat": 3.1167,
+    "lon": 113.2667,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 10,
+    "zone": "SWK03"
+   },
+   {
+    "name": "Sebuyau",
+    "slug": "sebuyau",
+    "lat": 1.5167,
+    "lon": 110.9333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 55,
+    "zone": "SWK07"
+   },
+   {
+    "name": "Sematan",
+    "slug": "sematan",
+    "lat": 1.8,
+    "lon": 109.7667,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 9,
+    "zone": "SWK08"
+   },
+   {
+    "name": "Serian",
+    "slug": "serian",
+    "lat": 1.1667,
+    "lon": 110.5667,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 20,
+    "zone": "SWK07"
+   },
+   {
+    "name": "Sibu",
+    "slug": "sibu",
+    "lat": 2.3,
+    "lon": 111.8167,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "SWK04"
+   },
+   {
+    "name": "Sibuti",
+    "slug": "sibuti",
+    "lat": 4.0414,
+    "lon": 113.8119,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 2,
+    "zone": "SWK02"
+   },
+   {
+    "name": "Simunjan",
+    "slug": "simunjan",
+    "lat": 1.3833,
+    "lon": 110.75,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 7,
+    "zone": "SWK07"
+   },
+   {
+    "name": "Song",
+    "slug": "song",
+    "lat": 2.0167,
+    "lon": 112.55,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 63,
+    "zone": "SWK04"
+   },
+   {
+    "name": "Spaoh",
+    "slug": "spaoh",
+    "lat": 1.5,
+    "lon": 111.5,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 15,
+    "zone": "SWK06"
+   },
+   {
+    "name": "Sri Aman",
+    "slug": "sri-aman",
+    "lat": 1.2472,
+    "lon": 111.4528,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 11,
+    "zone": "SWK06"
+   },
+   {
+    "name": "Suai",
+    "slug": "suai",
+    "lat": 3.8,
+    "lon": 113.6333,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 10,
+    "zone": "SWK03"
+   },
+   {
+    "name": "Sundar",
+    "slug": "sundar",
+    "lat": 4.8895,
+    "lon": 115.2075,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 10,
+    "zone": "SWK01"
+   },
+   {
+    "name": "Tatau",
+    "slug": "tatau",
+    "lat": 2.8833,
+    "lon": 112.85,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 22,
+    "zone": "SWK03"
+   },
+   {
+    "name": "Trusan",
+    "slug": "trusan",
+    "lat": 4.7849,
+    "lon": 115.2746,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 67,
+    "zone": "SWK01"
+   }
+  ]
+ },
+ {
+  "name": "Selangor",
+  "places": [
+   {
+    "name": "Ampang",
+    "slug": "ampang",
+    "lat": 3.0843,
+    "lon": 101.6597,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 0,
+    "zone": "SGR01"
+   },
+   {
+    "name": "Cyberjaya",
+    "slug": "cyberjaya",
+    "lat": 2.9228,
+    "lon": 101.6572,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 24,
+    "zone": "SGR01"
+   },
+   {
+    "name": "Gombak",
+    "slug": "gombak",
+    "lat": 3.3,
+    "lon": 101.7,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 238,
+    "zone": "SGR01"
+   },
+   {
+    "name": "Hulu Langat",
+    "slug": "hulu-langat",
+    "lat": 3.1137,
+    "lon": 101.8142,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 53,
+    "zone": "SGR01"
+   },
+   {
+    "name": "Hulu Selangor",
+    "slug": "hulu-selangor",
+    "lat": 3.5,
+    "lon": 101.5833,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 111,
+    "zone": "SGR01"
+   },
+   {
+    "name": "Kajang",
+    "slug": "kajang",
+    "lat": 2.9942,
+    "lon": 101.7887,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 34,
+    "zone": "SGR01"
+   },
+   {
+    "name": "Klang",
+    "slug": "klang",
+    "lat": 3.0367,
+    "lon": 101.4433,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 5,
+    "zone": "SGR03"
+   },
+   {
+    "name": "Kuala Langat",
+    "slug": "kuala-langat",
+    "lat": 2.75,
+    "lon": 101.5,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 13,
+    "zone": "SGR03"
+   },
+   {
+    "name": "Kuala Selangor",
+    "slug": "kuala-selangor",
+    "lat": 3.35,
+    "lon": 101.25,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 2,
+    "zone": "SGR02"
+   },
+   {
+    "name": "Petaling",
+    "slug": "petaling",
+    "lat": 3.0833,
+    "lon": 101.5833,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 25,
+    "zone": "SGR01"
+   },
+   {
+    "name": "Petaling Jaya",
+    "slug": "petaling-jaya",
+    "lat": 3.1073,
+    "lon": 101.6067,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 45,
+    "zone": "SGR01"
+   },
+   {
+    "name": "Port Klang",
+    "slug": "port-klang",
+    "lat": 2.9996,
+    "lon": 101.3929,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 6,
+    "zone": "SGR03"
+   },
+   {
+    "name": "Sabak Bernam",
+    "slug": "sabak-bernam",
+    "lat": 3.7698,
+    "lon": 100.9879,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 4,
+    "zone": "SGR02"
+   },
+   {
+    "name": "Sepang",
+    "slug": "sepang",
+    "lat": 2.6931,
+    "lon": 101.7498,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 12,
+    "zone": "SGR01"
+   },
+   {
+    "name": "Shah Alam",
+    "slug": "shah-alam",
+    "lat": 3.0851,
+    "lon": 101.5328,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 53,
+    "zone": "SGR01"
+   },
+   {
+    "name": "Subang Jaya",
+    "slug": "subang-jaya",
+    "lat": 3.0438,
+    "lon": 101.5806,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 41,
+    "zone": "SGR01"
+   }
+  ]
+ },
+ {
+  "name": "Terengganu",
+  "places": [
+   {
+    "name": "Besut",
+    "slug": "besut",
+    "lat": 5.833,
+    "lon": 102.5551,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 11,
+    "zone": "TRG02"
+   },
+   {
+    "name": "Dungun",
+    "slug": "dungun",
+    "lat": 4.775,
+    "lon": 103.4162,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 7,
+    "zone": "TRG04"
+   },
+   {
+    "name": "Hulu Terengganu",
+    "slug": "hulu-terengganu",
+    "lat": 5.048,
+    "lon": 102.7782,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 185,
+    "zone": "TRG03"
+   },
+   {
+    "name": "Kemaman",
+    "slug": "kemaman",
+    "lat": 4.2333,
+    "lon": 103.45,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": -9999,
+    "zone": "TRG04"
+   },
+   {
+    "name": "Kuala Nerus",
+    "slug": "kuala-nerus",
+    "lat": 5.3729,
+    "lon": 103.0205,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 146,
+    "zone": "TRG01"
+   },
+   {
+    "name": "Kuala Terengganu",
+    "slug": "kuala-terengganu",
+    "lat": 5.3302,
+    "lon": 103.1408,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 15,
+    "zone": "TRG01"
+   },
+   {
+    "name": "Marang",
+    "slug": "marang",
+    "lat": 5.2056,
+    "lon": 103.2059,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 14,
+    "zone": "TRG01"
+   },
+   {
+    "name": "Setiu",
+    "slug": "setiu",
+    "lat": 5.5197,
+    "lon": 102.746,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 21,
+    "zone": "TRG02"
+   }
+  ]
+ },
+ {
+  "name": "Wilayah Persekutuan",
+  "places": [
+   {
+    "name": "Kuala Lumpur",
+    "slug": "kuala-lumpur",
+    "lat": 3.1412,
+    "lon": 101.6865,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 56,
+    "zone": "WLY01"
+   },
+   {
+    "name": "Labuan",
+    "slug": "labuan",
+    "lat": 5.2803,
+    "lon": 115.2475,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 7,
+    "zone": "WLY02"
+   },
+   {
+    "name": "Putrajaya",
+    "slug": "putrajaya",
+    "lat": 2.9353,
+    "lon": 101.6911,
+    "tz": "Asia/Kuala_Lumpur",
+    "elev": 35,
+    "zone": "WLY01"
+   }
+  ]
+ }
+]

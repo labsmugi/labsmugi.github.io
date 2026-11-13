@@ -64,3 +64,6 @@ table.times { border-collapse:collapse; width:100%; font-variant-numeric:tabular
 .foot { color:var(--muted); font-size:13px; padding-top:16px; padding-bottom:40px; }
 .foot a { color:var(--muted); }
 .small { font-size:12px; }
+.six.seven { grid-template-columns:repeat(7,1fr); }
+@media (max-width:560px) { .six.seven { grid-template-columns:repeat(4,1fr); } }
+.ram7 td.k { font-weight:700; }

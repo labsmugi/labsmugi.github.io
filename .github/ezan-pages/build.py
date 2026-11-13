@@ -1,4 +1,5 @@
-"""Ezan Vakti web pages: prayer times for Turkey's 81 provinces and 922 districts.
+"""Ezan Vakti web pages: prayer times for Turkey's 81 provinces and 922 districts, plus other
+countries in their own languages (intl.py: ezan/id/ Indonesia, ezan/ms/ Malaysia).
 
 Writes, under <root>/ezan/:
   index.html                                   all provinces
@@ -28,6 +29,7 @@ from zoneinfo import ZoneInfo
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from prayertimes import NAMES, hhmm, times  # noqa: E402
+import intl  # noqa: E402
 
 SITE = "https://labsmugi.github.io"
 BASE = "/ezan/"
@@ -170,7 +172,7 @@ def times_table(rows, highlight_dates=True, ramadan=False):
 
 def hero(name, d, ts):
     cells = "".join(
-        f'<li data-n="{n}"><span>{LABELS[n]}</span><b>{t}</b></li>' for n, t in zip(NAMES, ts)
+        f'<li data-n="{"sun" if n == "gunes" else n}"><span>{LABELS[n]}</span><b>{t}</b></li>' for n, t in zip(NAMES, ts)
     )
     return f"""<section class="hero" id="hero">
 <p class="today"><span id="hero-date">{e(long_date(d))}</span> · {e(name)}</p>
@@ -371,6 +373,9 @@ def main():
         for d in prov["districts"]:
             emit(place_page(d, prov, prov["districts"], first, stamp))
             emit(ramadan_page(d, prov, stamp))
+
+    for result in intl.pages(first, stamp):
+        emit(result)
 
     # After Ramadan 2027 is over the imsakiye pages stay up (they keep ranking for next year's
     # queries until RAMADAN_* above is moved to 2028).

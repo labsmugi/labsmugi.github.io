@@ -1,0 +1,2424 @@
+[
+ {
+  "name": "Aceh",
+  "places": [
+   {
+    "name": "Banda Aceh",
+    "slug": "banda-aceh",
+    "lat": 5.5417,
+    "lon": 95.3333,
+    "tz": "Asia/Jakarta",
+    "elev": 9
+   },
+   {
+    "name": "Langsa",
+    "slug": "langsa",
+    "lat": 4.4683,
+    "lon": 97.9683,
+    "tz": "Asia/Jakarta",
+    "elev": 10
+   },
+   {
+    "name": "Lhokseumawe",
+    "slug": "lhokseumawe",
+    "lat": 5.1801,
+    "lon": 97.1507,
+    "tz": "Asia/Jakarta",
+    "elev": 6
+   },
+   {
+    "name": "Meulaboh",
+    "slug": "meulaboh",
+    "lat": 4.144,
+    "lon": 96.1266,
+    "tz": "Asia/Jakarta",
+    "elev": 7
+   },
+   {
+    "name": "Subulussalam",
+    "slug": "subulussalam",
+    "lat": 2.662,
+    "lon": 97.8827,
+    "tz": "Asia/Jakarta",
+    "elev": 29
+   }
+  ]
+ },
+ {
+  "name": "Bali",
+  "places": [
+   {
+    "name": "Banjar (Bali)",
+    "slug": "banjar-bali",
+    "lat": -8.19,
+    "lon": 114.9675,
+    "tz": "Asia/Makassar",
+    "elev": 15
+   },
+   {
+    "name": "Denpasar",
+    "slug": "denpasar",
+    "lat": -8.65,
+    "lon": 115.2167,
+    "tz": "Asia/Makassar",
+    "elev": 33
+   },
+   {
+    "name": "Klungkung",
+    "slug": "klungkung",
+    "lat": -8.5333,
+    "lon": 115.4,
+    "tz": "Asia/Makassar",
+    "elev": 95
+   },
+   {
+    "name": "Negara",
+    "slug": "negara",
+    "lat": -8.3569,
+    "lon": 114.6169,
+    "tz": "Asia/Makassar",
+    "elev": 12
+   },
+   {
+    "name": "Singaraja",
+    "slug": "singaraja",
+    "lat": -8.112,
+    "lon": 115.0882,
+    "tz": "Asia/Makassar",
+    "elev": 11
+   },
+   {
+    "name": "Sukawati",
+    "slug": "sukawati",
+    "lat": -8.4913,
+    "lon": 115.0459,
+    "tz": "Asia/Makassar",
+    "elev": 159
+   },
+   {
+    "name": "Ubud",
+    "slug": "ubud",
+    "lat": -8.5098,
+    "lon": 115.2654,
+    "tz": "Asia/Makassar",
+    "elev": 210
+   }
+  ]
+ },
+ {
+  "name": "Banten",
+  "places": [
+   {
+    "name": "Cilegon",
+    "slug": "cilegon",
+    "lat": -6.0144,
+    "lon": 106.0542,
+    "tz": "Asia/Jakarta",
+    "elev": 18
+   },
+   {
+    "name": "Curug",
+    "slug": "curug",
+    "lat": -6.2658,
+    "lon": 106.5564,
+    "tz": "Asia/Jakarta",
+    "elev": 39
+   },
+   {
+    "name": "Pandeglang",
+    "slug": "pandeglang",
+    "lat": -6.3084,
+    "lon": 106.1067,
+    "tz": "Asia/Jakarta",
+    "elev": 253
+   },
+   {
+    "name": "Rangkasbitung",
+    "slug": "rangkasbitung",
+    "lat": -6.3591,
+    "lon": 106.2494,
+    "tz": "Asia/Jakarta",
+    "elev": 27
+   },
+   {
+    "name": "Serang",
+    "slug": "serang",
+    "lat": -6.1153,
+    "lon": 106.1542,
+    "tz": "Asia/Jakarta",
+    "elev": 29
+   },
+   {
+    "name": "Tangerang",
+    "slug": "tangerang",
+    "lat": -6.1781,
+    "lon": 106.63,
+    "tz": "Asia/Jakarta",
+    "elev": 18
+   },
+   {
+    "name": "Tangerang Selatan",
+    "slug": "tangerang-selatan",
+    "lat": -6.2886,
+    "lon": 106.7179,
+    "tz": "Asia/Jakarta",
+    "elev": 39
+   }
+  ]
+ },
+ {
+  "name": "Bengkulu",
+  "places": [
+   {
+    "name": "Bengkulu",
+    "slug": "bengkulu",
+    "lat": -3.8004,
+    "lon": 102.2655,
+    "tz": "Asia/Jakarta",
+    "elev": 19
+   }
+  ]
+ },
+ {
+  "name": "DI Yogyakarta",
+  "places": [
+   {
+    "name": "Bantul",
+    "slug": "bantul",
+    "lat": -7.8881,
+    "lon": 110.3289,
+    "tz": "Asia/Jakarta",
+    "elev": 49
+   },
+   {
+    "name": "Depok (DI Yogyakarta)",
+    "slug": "depok-di-yogyakarta",
+    "lat": -7.7625,
+    "lon": 110.4317,
+    "tz": "Asia/Jakarta",
+    "elev": 154
+   },
+   {
+    "name": "Gamping Lor",
+    "slug": "gamping-lor",
+    "lat": -7.7956,
+    "lon": 110.3264,
+    "tz": "Asia/Jakarta",
+    "elev": 105
+   },
+   {
+    "name": "Godean",
+    "slug": "godean",
+    "lat": -7.7697,
+    "lon": 110.2939,
+    "tz": "Asia/Jakarta",
+    "elev": 121
+   },
+   {
+    "name": "Kasihan",
+    "slug": "kasihan",
+    "lat": -7.8269,
+    "lon": 110.3292,
+    "tz": "Asia/Jakarta",
+    "elev": 86
+   },
+   {
+    "name": "Melati",
+    "slug": "melati",
+    "lat": -7.7333,
+    "lon": 110.3667,
+    "tz": "Asia/Jakarta",
+    "elev": 187
+   },
+   {
+    "name": "Pandak",
+    "slug": "pandak",
+    "lat": -7.9131,
+    "lon": 110.2936,
+    "tz": "Asia/Jakarta",
+    "elev": 34
+   },
+   {
+    "name": "Sewon",
+    "slug": "sewon",
+    "lat": -7.8764,
+    "lon": 110.3589,
+    "tz": "Asia/Jakarta",
+    "elev": 57
+   },
+   {
+    "name": "Sleman",
+    "slug": "sleman",
+    "lat": -7.7156,
+    "lon": 110.3556,
+    "tz": "Asia/Jakarta",
+    "elev": 210
+   },
+   {
+    "name": "Wonosari",
+    "slug": "wonosari",
+    "lat": -7.9656,
+    "lon": 110.6036,
+    "tz": "Asia/Jakarta",
+    "elev": 181
+   },
+   {
+    "name": "Yogyakarta",
+    "slug": "yogyakarta",
+    "lat": -7.8014,
+    "lon": 110.3647,
+    "tz": "Asia/Jakarta",
+    "elev": 110
+   }
+  ]
+ },
+ {
+  "name": "DKI Jakarta",
+  "places": [
+   {
+    "name": "Jakarta",
+    "slug": "jakarta",
+    "lat": -6.2146,
+    "lon": 106.8451,
+    "tz": "Asia/Jakarta",
+    "elev": 16
+   }
+  ]
+ },
+ {
+  "name": "Gorontalo",
+  "places": [
+   {
+    "name": "Gorontalo",
+    "slug": "gorontalo",
+    "lat": 0.5375,
+    "lon": 123.0625,
+    "tz": "Asia/Makassar",
+    "elev": 11
+   }
+  ]
+ },
+ {
+  "name": "Jambi",
+  "places": [
+   {
+    "name": "Jambi",
+    "slug": "jambi",
+    "lat": -1.6,
+    "lon": 103.6167,
+    "tz": "Asia/Jakarta",
+    "elev": 21
+   },
+   {
+    "name": "Mendaha",
+    "slug": "mendaha",
+    "lat": -1.0163,
+    "lon": 103.5933,
+    "tz": "Asia/Jakarta",
+    "elev": 5
+   },
+   {
+    "name": "Sungai Penuh",
+    "slug": "sungai-penuh",
+    "lat": -2.0561,
+    "lon": 101.3913,
+    "tz": "Asia/Jakarta",
+    "elev": 811
+   }
+  ]
+ },
+ {
+  "name": "Jawa Barat",
+  "places": [
+   {
+    "name": "Arjawinangun",
+    "slug": "arjawinangun",
+    "lat": -6.6453,
+    "lon": 108.4103,
+    "tz": "Asia/Jakarta",
+    "elev": 14
+   },
+   {
+    "name": "Astanajapura",
+    "slug": "astanajapura",
+    "lat": -6.8017,
+    "lon": 108.6311,
+    "tz": "Asia/Jakarta",
+    "elev": 6
+   },
+   {
+    "name": "Bandung",
+    "slug": "bandung",
+    "lat": -6.9222,
+    "lon": 107.6069,
+    "tz": "Asia/Jakarta",
+    "elev": 714
+   },
+   {
+    "name": "Banjar",
+    "slug": "banjar",
+    "lat": -7.1955,
+    "lon": 107.4313,
+    "tz": "Asia/Jakarta",
+    "elev": 1874
+   },
+   {
+    "name": "Banjaran",
+    "slug": "banjaran",
+    "lat": -7.0453,
+    "lon": 107.5878,
+    "tz": "Asia/Jakarta",
+    "elev": 674
+   },
+   {
+    "name": "Bekasi",
+    "slug": "bekasi",
+    "lat": -6.2349,
+    "lon": 106.9896,
+    "tz": "Asia/Jakarta",
+    "elev": 18
+   },
+   {
+    "name": "Bogor",
+    "slug": "bogor",
+    "lat": -6.5944,
+    "lon": 106.7892,
+    "tz": "Asia/Jakarta",
+    "elev": 245
+   },
+   {
+    "name": "Caringin",
+    "slug": "caringin",
+    "lat": -6.7061,
+    "lon": 106.8214,
+    "tz": "Asia/Jakarta",
+    "elev": 444
+   },
+   {
+    "name": "Ciamis",
+    "slug": "ciamis",
+    "lat": -7.3257,
+    "lon": 108.3534,
+    "tz": "Asia/Jakarta",
+    "elev": 207
+   },
+   {
+    "name": "Ciampea",
+    "slug": "ciampea",
+    "lat": -6.5547,
+    "lon": 106.7008,
+    "tz": "Asia/Jakarta",
+    "elev": 147
+   },
+   {
+    "name": "Cianjur",
+    "slug": "cianjur",
+    "lat": -6.8222,
+    "lon": 107.1394,
+    "tz": "Asia/Jakarta",
+    "elev": 456
+   },
+   {
+    "name": "Cibinong",
+    "slug": "cibinong",
+    "lat": -6.4817,
+    "lon": 106.8542,
+    "tz": "Asia/Jakarta",
+    "elev": 137
+   },
+   {
+    "name": "Cicurug",
+    "slug": "cicurug",
+    "lat": -6.7814,
+    "lon": 106.7825,
+    "tz": "Asia/Jakarta",
+    "elev": 502
+   },
+   {
+    "name": "Cikampek",
+    "slug": "cikampek",
+    "lat": -6.4197,
+    "lon": 107.4558,
+    "tz": "Asia/Jakarta",
+    "elev": 61
+   },
+   {
+    "name": "Cikarang",
+    "slug": "cikarang",
+    "lat": -6.2611,
+    "lon": 107.1528,
+    "tz": "Asia/Jakarta",
+    "elev": 17
+   },
+   {
+    "name": "Cikupa",
+    "slug": "cikupa",
+    "lat": -6.2364,
+    "lon": 106.5083,
+    "tz": "Asia/Jakarta",
+    "elev": 30
+   },
+   {
+    "name": "Cileungsir",
+    "slug": "cileungsir",
+    "lat": -6.3947,
+    "lon": 106.9592,
+    "tz": "Asia/Jakarta",
+    "elev": 78
+   },
+   {
+    "name": "Cileunyi",
+    "slug": "cileunyi",
+    "lat": -6.9389,
+    "lon": 107.7528,
+    "tz": "Asia/Jakarta",
+    "elev": 703
+   },
+   {
+    "name": "Cimahi",
+    "slug": "cimahi",
+    "lat": -6.8722,
+    "lon": 107.5425,
+    "tz": "Asia/Jakarta",
+    "elev": 764
+   },
+   {
+    "name": "Ciputat",
+    "slug": "ciputat",
+    "lat": -6.2375,
+    "lon": 106.6956,
+    "tz": "Asia/Jakarta",
+    "elev": 23
+   },
+   {
+    "name": "Ciranjang",
+    "slug": "ciranjang",
+    "lat": -6.82,
+    "lon": 107.2572,
+    "tz": "Asia/Jakarta",
+    "elev": 266
+   },
+   {
+    "name": "Cirebon",
+    "slug": "cirebon",
+    "lat": -6.7063,
+    "lon": 108.557,
+    "tz": "Asia/Jakarta",
+    "elev": 8
+   },
+   {
+    "name": "Citeureup",
+    "slug": "citeureup",
+    "lat": -6.4856,
+    "lon": 106.8819,
+    "tz": "Asia/Jakarta",
+    "elev": 136
+   },
+   {
+    "name": "Depok",
+    "slug": "depok",
+    "lat": -6.4,
+    "lon": 106.8186,
+    "tz": "Asia/Jakarta",
+    "elev": 92
+   },
+   {
+    "name": "Garut",
+    "slug": "garut",
+    "lat": -7.245,
+    "lon": 107.921,
+    "tz": "Asia/Jakarta",
+    "elev": 891
+   },
+   {
+    "name": "Indramayu",
+    "slug": "indramayu",
+    "lat": -6.3264,
+    "lon": 108.32,
+    "tz": "Asia/Jakarta",
+    "elev": 5
+   },
+   {
+    "name": "Jatibarang",
+    "slug": "jatibarang",
+    "lat": -6.4747,
+    "lon": 108.3153,
+    "tz": "Asia/Jakarta",
+    "elev": 12
+   },
+   {
+    "name": "Jatiwangi",
+    "slug": "jatiwangi",
+    "lat": -6.7336,
+    "lon": 108.2628,
+    "tz": "Asia/Jakarta",
+    "elev": 47
+   },
+   {
+    "name": "Karangsembung",
+    "slug": "karangsembung",
+    "lat": -6.8487,
+    "lon": 108.6422,
+    "tz": "Asia/Jakarta",
+    "elev": 14
+   },
+   {
+    "name": "Karawang",
+    "slug": "karawang",
+    "lat": -6.3053,
+    "lon": 107.3197,
+    "tz": "Asia/Jakarta",
+    "elev": 12
+   },
+   {
+    "name": "Kawalu",
+    "slug": "kawalu",
+    "lat": -7.3817,
+    "lon": 108.2082,
+    "tz": "Asia/Jakarta",
+    "elev": 325
+   },
+   {
+    "name": "Klangenan",
+    "slug": "klangenan",
+    "lat": -6.7094,
+    "lon": 108.44,
+    "tz": "Asia/Jakarta",
+    "elev": 25
+   },
+   {
+    "name": "Kresek",
+    "slug": "kresek",
+    "lat": -6.1314,
+    "lon": 106.3797,
+    "tz": "Asia/Jakarta",
+    "elev": 16
+   },
+   {
+    "name": "Kuningan",
+    "slug": "kuningan",
+    "lat": -6.9758,
+    "lon": 108.4831,
+    "tz": "Asia/Jakarta",
+    "elev": 537
+   },
+   {
+    "name": "Lembang",
+    "slug": "lembang",
+    "lat": -6.8117,
+    "lon": 107.6175,
+    "tz": "Asia/Jakarta",
+    "elev": 1252
+   },
+   {
+    "name": "Majalengka",
+    "slug": "majalengka",
+    "lat": -6.8361,
+    "lon": 108.2278,
+    "tz": "Asia/Jakarta",
+    "elev": 126
+   },
+   {
+    "name": "Margahayukencana",
+    "slug": "margahayukencana",
+    "lat": -6.9708,
+    "lon": 107.5675,
+    "tz": "Asia/Jakarta",
+    "elev": 668
+   },
+   {
+    "name": "Padalarang",
+    "slug": "padalarang",
+    "lat": -6.8378,
+    "lon": 107.4728,
+    "tz": "Asia/Jakarta",
+    "elev": 703
+   },
+   {
+    "name": "Palimanan",
+    "slug": "palimanan",
+    "lat": -6.7069,
+    "lon": 108.4242,
+    "tz": "Asia/Jakarta",
+    "elev": 26
+   },
+   {
+    "name": "Pamanukan",
+    "slug": "pamanukan",
+    "lat": -6.2842,
+    "lon": 107.8106,
+    "tz": "Asia/Jakarta",
+    "elev": 10
+   },
+   {
+    "name": "Pamulang",
+    "slug": "pamulang",
+    "lat": -6.3428,
+    "lon": 106.7383,
+    "tz": "Asia/Jakarta",
+    "elev": 65
+   },
+   {
+    "name": "Parung",
+    "slug": "parung",
+    "lat": -6.4214,
+    "lon": 106.7331,
+    "tz": "Asia/Jakarta",
+    "elev": 101
+   },
+   {
+    "name": "Pasarkemis",
+    "slug": "pasarkemis",
+    "lat": -6.1703,
+    "lon": 106.5303,
+    "tz": "Asia/Jakarta",
+    "elev": 20
+   },
+   {
+    "name": "Paseh",
+    "slug": "paseh",
+    "lat": -7.068,
+    "lon": 107.794,
+    "tz": "Asia/Jakarta",
+    "elev": 924
+   },
+   {
+    "name": "Pelabuhanratu",
+    "slug": "pelabuhanratu",
+    "lat": -6.9875,
+    "lon": 106.5514,
+    "tz": "Asia/Jakarta",
+    "elev": 21
+   },
+   {
+    "name": "Plumbon",
+    "slug": "plumbon",
+    "lat": -6.705,
+    "lon": 108.4728,
+    "tz": "Asia/Jakarta",
+    "elev": 22
+   },
+   {
+    "name": "Purwakarta",
+    "slug": "purwakarta",
+    "lat": -6.5569,
+    "lon": 107.4433,
+    "tz": "Asia/Jakarta",
+    "elev": 86
+   },
+   {
+    "name": "Rengasdengklok",
+    "slug": "rengasdengklok",
+    "lat": -6.1592,
+    "lon": 107.2981,
+    "tz": "Asia/Jakarta",
+    "elev": 10
+   },
+   {
+    "name": "Sawangan",
+    "slug": "sawangan",
+    "lat": -6.4028,
+    "lon": 106.7744,
+    "tz": "Asia/Jakarta",
+    "elev": 88
+   },
+   {
+    "name": "Sepatan",
+    "slug": "sepatan",
+    "lat": -6.1189,
+    "lon": 106.575,
+    "tz": "Asia/Jakarta",
+    "elev": 11
+   },
+   {
+    "name": "Serpong",
+    "slug": "serpong",
+    "lat": -6.3169,
+    "lon": 106.6642,
+    "tz": "Asia/Jakarta",
+    "elev": 49
+   },
+   {
+    "name": "Soreang",
+    "slug": "soreang",
+    "lat": -7.0331,
+    "lon": 107.5183,
+    "tz": "Asia/Jakarta",
+    "elev": 744
+   },
+   {
+    "name": "Subang",
+    "slug": "subang",
+    "lat": -6.57,
+    "lon": 107.7567,
+    "tz": "Asia/Jakarta",
+    "elev": 96
+   },
+   {
+    "name": "Sukabumi",
+    "slug": "sukabumi",
+    "lat": -6.9181,
+    "lon": 106.9267,
+    "tz": "Asia/Jakarta",
+    "elev": 613
+   },
+   {
+    "name": "Sumber",
+    "slug": "sumber",
+    "lat": -6.7603,
+    "lon": 108.4831,
+    "tz": "Asia/Jakarta",
+    "elev": 72
+   },
+   {
+    "name": "Sumedang",
+    "slug": "sumedang",
+    "lat": -6.8586,
+    "lon": 107.9164,
+    "tz": "Asia/Jakarta",
+    "elev": 460
+   },
+   {
+    "name": "Sumedang Utara",
+    "slug": "sumedang-utara",
+    "lat": -6.85,
+    "lon": 107.9167,
+    "tz": "Asia/Jakarta",
+    "elev": 467
+   },
+   {
+    "name": "Tasikmalaya",
+    "slug": "tasikmalaya",
+    "lat": -7.3274,
+    "lon": 108.2207,
+    "tz": "Asia/Jakarta",
+    "elev": 354
+   },
+   {
+    "name": "Teluknaga",
+    "slug": "teluknaga",
+    "lat": -6.0989,
+    "lon": 106.6381,
+    "tz": "Asia/Jakarta",
+    "elev": 8
+   },
+   {
+    "name": "Weru",
+    "slug": "weru",
+    "lat": -6.711,
+    "lon": 108.5037,
+    "tz": "Asia/Jakarta",
+    "elev": 19
+   }
+  ]
+ },
+ {
+  "name": "Jawa Tengah",
+  "places": [
+   {
+    "name": "Adiwerna",
+    "slug": "adiwerna",
+    "lat": -6.9375,
+    "lon": 109.1325,
+    "tz": "Asia/Jakarta",
+    "elev": 23
+   },
+   {
+    "name": "Ambarawa",
+    "slug": "ambarawa",
+    "lat": -7.2633,
+    "lon": 110.3975,
+    "tz": "Asia/Jakarta",
+    "elev": 481
+   },
+   {
+    "name": "Baekrajan",
+    "slug": "baekrajan",
+    "lat": -6.7674,
+    "lon": 110.8541,
+    "tz": "Asia/Jakarta",
+    "elev": 68
+   },
+   {
+    "name": "Baki",
+    "slug": "baki",
+    "lat": -7.6128,
+    "lon": 110.7839,
+    "tz": "Asia/Jakarta",
+    "elev": 104
+   },
+   {
+    "name": "Batang",
+    "slug": "batang",
+    "lat": -6.4846,
+    "lon": 110.7083,
+    "tz": "Asia/Jakarta",
+    "elev": 14
+   },
+   {
+    "name": "Blora",
+    "slug": "blora",
+    "lat": -6.9698,
+    "lon": 111.4186,
+    "tz": "Asia/Jakarta",
+    "elev": 89
+   },
+   {
+    "name": "Boyolali",
+    "slug": "boyolali",
+    "lat": -7.5331,
+    "lon": 110.5958,
+    "tz": "Asia/Jakarta",
+    "elev": 438
+   },
+   {
+    "name": "Cepu",
+    "slug": "cepu",
+    "lat": -7.1475,
+    "lon": 111.5906,
+    "tz": "Asia/Jakarta",
+    "elev": 36
+   },
+   {
+    "name": "Cilacap",
+    "slug": "cilacap",
+    "lat": -7.7264,
+    "lon": 109.0094,
+    "tz": "Asia/Jakarta",
+    "elev": 10
+   },
+   {
+    "name": "Comal",
+    "slug": "comal",
+    "lat": -6.9053,
+    "lon": 109.5347,
+    "tz": "Asia/Jakarta",
+    "elev": 13
+   },
+   {
+    "name": "Dukuhturi",
+    "slug": "dukuhturi",
+    "lat": -6.9,
+    "lon": 109.0833,
+    "tz": "Asia/Jakarta",
+    "elev": 4
+   },
+   {
+    "name": "Gombong",
+    "slug": "gombong",
+    "lat": -7.6072,
+    "lon": 109.5142,
+    "tz": "Asia/Jakarta",
+    "elev": 26
+   },
+   {
+    "name": "Grogol",
+    "slug": "grogol",
+    "lat": -7.6011,
+    "lon": 110.8186,
+    "tz": "Asia/Jakarta",
+    "elev": 93
+   },
+   {
+    "name": "Jatiroto",
+    "slug": "jatiroto",
+    "lat": -7.8833,
+    "lon": 111.1167,
+    "tz": "Asia/Jakarta",
+    "elev": 265
+   },
+   {
+    "name": "Jepara",
+    "slug": "jepara",
+    "lat": -6.5924,
+    "lon": 110.671,
+    "tz": "Asia/Jakarta",
+    "elev": 5
+   },
+   {
+    "name": "Kartasura",
+    "slug": "kartasura",
+    "lat": -7.5519,
+    "lon": 110.7378,
+    "tz": "Asia/Jakarta",
+    "elev": 134
+   },
+   {
+    "name": "Kedungwuni",
+    "slug": "kedungwuni",
+    "lat": -6.9704,
+    "lon": 109.6479,
+    "tz": "Asia/Jakarta",
+    "elev": 17
+   },
+   {
+    "name": "Klaten",
+    "slug": "klaten",
+    "lat": -7.7058,
+    "lon": 110.6064,
+    "tz": "Asia/Jakarta",
+    "elev": 159
+   },
+   {
+    "name": "Kudus",
+    "slug": "kudus",
+    "lat": -6.8048,
+    "lon": 110.8405,
+    "tz": "Asia/Jakarta",
+    "elev": 27
+   },
+   {
+    "name": "Magelang",
+    "slug": "magelang",
+    "lat": -7.4706,
+    "lon": 110.2178,
+    "tz": "Asia/Jakarta",
+    "elev": 379
+   },
+   {
+    "name": "Mertoyudan",
+    "slug": "mertoyudan",
+    "lat": -7.52,
+    "lon": 110.2264,
+    "tz": "Asia/Jakarta",
+    "elev": 351
+   },
+   {
+    "name": "Muntilan",
+    "slug": "muntilan",
+    "lat": -7.5811,
+    "lon": 110.2928,
+    "tz": "Asia/Jakarta",
+    "elev": 377
+   },
+   {
+    "name": "Pati",
+    "slug": "pati",
+    "lat": -6.7559,
+    "lon": 111.038,
+    "tz": "Asia/Jakarta",
+    "elev": 13
+   },
+   {
+    "name": "Pecangaan",
+    "slug": "pecangaan",
+    "lat": -6.6978,
+    "lon": 110.7107,
+    "tz": "Asia/Jakarta",
+    "elev": 18
+   },
+   {
+    "name": "Pekalongan",
+    "slug": "pekalongan",
+    "lat": -6.8886,
+    "lon": 109.6753,
+    "tz": "Asia/Jakarta",
+    "elev": 10
+   },
+   {
+    "name": "Pemalang",
+    "slug": "pemalang",
+    "lat": -6.8919,
+    "lon": 109.3826,
+    "tz": "Asia/Jakarta",
+    "elev": 12
+   },
+   {
+    "name": "Purbalingga",
+    "slug": "purbalingga",
+    "lat": -7.3881,
+    "lon": 109.3639,
+    "tz": "Asia/Jakarta",
+    "elev": 61
+   },
+   {
+    "name": "Purwodadi",
+    "slug": "purwodadi",
+    "lat": -7.0868,
+    "lon": 110.9158,
+    "tz": "Asia/Jakarta",
+    "elev": 29
+   },
+   {
+    "name": "Purwokerto",
+    "slug": "purwokerto",
+    "lat": -7.4214,
+    "lon": 109.2344,
+    "tz": "Asia/Jakarta",
+    "elev": 81
+   },
+   {
+    "name": "Salatiga",
+    "slug": "salatiga",
+    "lat": -7.3319,
+    "lon": 110.4928,
+    "tz": "Asia/Jakarta",
+    "elev": 571
+   },
+   {
+    "name": "Semarang",
+    "slug": "semarang",
+    "lat": -6.9931,
+    "lon": 110.4208,
+    "tz": "Asia/Jakarta",
+    "elev": 18
+   },
+   {
+    "name": "Slawi",
+    "slug": "slawi",
+    "lat": -6.9816,
+    "lon": 109.1407,
+    "tz": "Asia/Jakarta",
+    "elev": 43
+   },
+   {
+    "name": "Sokaraja",
+    "slug": "sokaraja",
+    "lat": -7.4581,
+    "lon": 109.2881,
+    "tz": "Asia/Jakarta",
+    "elev": 48
+   },
+   {
+    "name": "Sragen",
+    "slug": "sragen",
+    "lat": -7.4264,
+    "lon": 111.0222,
+    "tz": "Asia/Jakarta",
+    "elev": 90
+   },
+   {
+    "name": "Surakarta",
+    "slug": "surakarta",
+    "lat": -7.5561,
+    "lon": 110.8317,
+    "tz": "Asia/Jakarta",
+    "elev": 100
+   },
+   {
+    "name": "Tarub",
+    "slug": "tarub",
+    "lat": -6.9333,
+    "lon": 109.1667,
+    "tz": "Asia/Jakarta",
+    "elev": 22
+   },
+   {
+    "name": "Tegal",
+    "slug": "tegal",
+    "lat": -6.8694,
+    "lon": 109.1402,
+    "tz": "Asia/Jakarta",
+    "elev": 7
+   },
+   {
+    "name": "Ungaran",
+    "slug": "ungaran",
+    "lat": -7.1397,
+    "lon": 110.405,
+    "tz": "Asia/Jakarta",
+    "elev": 351
+   },
+   {
+    "name": "Wedi",
+    "slug": "wedi",
+    "lat": -7.7431,
+    "lon": 110.5794,
+    "tz": "Asia/Jakarta",
+    "elev": 148
+   },
+   {
+    "name": "Weleri",
+    "slug": "weleri",
+    "lat": -6.9713,
+    "lon": 110.0666,
+    "tz": "Asia/Jakarta",
+    "elev": 17
+   },
+   {
+    "name": "Wonosobo",
+    "slug": "wonosobo",
+    "lat": -7.3589,
+    "lon": 109.9031,
+    "tz": "Asia/Jakarta",
+    "elev": 794
+   }
+  ]
+ },
+ {
+  "name": "Jawa Timur",
+  "places": [
+   {
+    "name": "Bangil",
+    "slug": "bangil",
+    "lat": -7.5994,
+    "lon": 112.8186,
+    "tz": "Asia/Jakarta",
+    "elev": 2
+   },
+   {
+    "name": "Bangkalan",
+    "slug": "bangkalan",
+    "lat": -7.0455,
+    "lon": 112.7351,
+    "tz": "Asia/Jakarta",
+    "elev": 4
+   },
+   {
+    "name": "Banyuwangi",
+    "slug": "banyuwangi",
+    "lat": -8.2325,
+    "lon": 114.3576,
+    "tz": "Asia/Jakarta",
+    "elev": 24
+   },
+   {
+    "name": "Batu",
+    "slug": "batu",
+    "lat": -7.87,
+    "lon": 112.5283,
+    "tz": "Asia/Jakarta",
+    "elev": 881
+   },
+   {
+    "name": "Besuki",
+    "slug": "besuki",
+    "lat": -7.7338,
+    "lon": 113.6979,
+    "tz": "Asia/Jakarta",
+    "elev": 6
+   },
+   {
+    "name": "Blitar",
+    "slug": "blitar",
+    "lat": -8.0983,
+    "lon": 112.1681,
+    "tz": "Asia/Jakarta",
+    "elev": 180
+   },
+   {
+    "name": "Bojonegoro",
+    "slug": "bojonegoro",
+    "lat": -7.1502,
+    "lon": 111.8817,
+    "tz": "Asia/Jakarta",
+    "elev": 24
+   },
+   {
+    "name": "Bondowoso",
+    "slug": "bondowoso",
+    "lat": -7.9135,
+    "lon": 113.8214,
+    "tz": "Asia/Jakarta",
+    "elev": 258
+   },
+   {
+    "name": "Gedangan",
+    "slug": "gedangan",
+    "lat": -7.3908,
+    "lon": 112.7267,
+    "tz": "Asia/Jakarta",
+    "elev": 5
+   },
+   {
+    "name": "Genteng",
+    "slug": "genteng",
+    "lat": -8.3667,
+    "lon": 114.15,
+    "tz": "Asia/Jakarta",
+    "elev": 172
+   },
+   {
+    "name": "Gresik",
+    "slug": "gresik",
+    "lat": -7.1539,
+    "lon": 112.6561,
+    "tz": "Asia/Jakarta",
+    "elev": 10
+   },
+   {
+    "name": "Jember",
+    "slug": "jember",
+    "lat": -8.1721,
+    "lon": 113.6995,
+    "tz": "Asia/Jakarta",
+    "elev": 86
+   },
+   {
+    "name": "Jombang",
+    "slug": "jombang",
+    "lat": -7.546,
+    "lon": 112.2331,
+    "tz": "Asia/Jakarta",
+    "elev": 43
+   },
+   {
+    "name": "Kebomas",
+    "slug": "kebomas",
+    "lat": -7.1667,
+    "lon": 112.6333,
+    "tz": "Asia/Jakarta",
+    "elev": 36
+   },
+   {
+    "name": "Kediri",
+    "slug": "kediri",
+    "lat": -7.8167,
+    "lon": 112.0167,
+    "tz": "Asia/Jakarta",
+    "elev": 74
+   },
+   {
+    "name": "Kedungwaru",
+    "slug": "kedungwaru",
+    "lat": -8.0667,
+    "lon": 111.9167,
+    "tz": "Asia/Jakarta",
+    "elev": 90
+   },
+   {
+    "name": "Kepanjen",
+    "slug": "kepanjen",
+    "lat": -8.1303,
+    "lon": 112.5727,
+    "tz": "Asia/Jakarta",
+    "elev": 341
+   },
+   {
+    "name": "Kertosono",
+    "slug": "kertosono",
+    "lat": -7.5833,
+    "lon": 112.1,
+    "tz": "Asia/Jakarta",
+    "elev": 43
+   },
+   {
+    "name": "Lamongan",
+    "slug": "lamongan",
+    "lat": -7.1167,
+    "lon": 112.4167,
+    "tz": "Asia/Jakarta",
+    "elev": 8
+   },
+   {
+    "name": "Lawang",
+    "slug": "lawang",
+    "lat": -7.8353,
+    "lon": 112.6947,
+    "tz": "Asia/Jakarta",
+    "elev": 509
+   },
+   {
+    "name": "Lumajang",
+    "slug": "lumajang",
+    "lat": -8.1335,
+    "lon": 113.2248,
+    "tz": "Asia/Jakarta",
+    "elev": 56
+   },
+   {
+    "name": "Madiun",
+    "slug": "madiun",
+    "lat": -7.6298,
+    "lon": 111.5239,
+    "tz": "Asia/Jakarta",
+    "elev": 69
+   },
+   {
+    "name": "Malang",
+    "slug": "malang",
+    "lat": -7.9797,
+    "lon": 112.6304,
+    "tz": "Asia/Jakarta",
+    "elev": 452
+   },
+   {
+    "name": "Mojokerto",
+    "slug": "mojokerto",
+    "lat": -7.4664,
+    "lon": 112.4338,
+    "tz": "Asia/Jakarta",
+    "elev": 25
+   },
+   {
+    "name": "Muncar",
+    "slug": "muncar",
+    "lat": -8.4333,
+    "lon": 114.3333,
+    "tz": "Asia/Jakarta",
+    "elev": 6
+   },
+   {
+    "name": "Nganjuk",
+    "slug": "nganjuk",
+    "lat": -7.6051,
+    "lon": 111.9035,
+    "tz": "Asia/Jakarta",
+    "elev": 59
+   },
+   {
+    "name": "Pamekasan",
+    "slug": "pamekasan",
+    "lat": -7.1568,
+    "lon": 113.4746,
+    "tz": "Asia/Jakarta",
+    "elev": 18
+   },
+   {
+    "name": "Pare",
+    "slug": "pare",
+    "lat": -7.7679,
+    "lon": 112.198,
+    "tz": "Asia/Jakarta",
+    "elev": 141
+   },
+   {
+    "name": "Pasuruan",
+    "slug": "pasuruan",
+    "lat": -7.6453,
+    "lon": 112.9075,
+    "tz": "Asia/Jakarta",
+    "elev": 9
+   },
+   {
+    "name": "Ponorogo",
+    "slug": "ponorogo",
+    "lat": -7.8685,
+    "lon": 111.462,
+    "tz": "Asia/Jakarta",
+    "elev": 103
+   },
+   {
+    "name": "Probolinggo",
+    "slug": "probolinggo",
+    "lat": -7.7543,
+    "lon": 113.2159,
+    "tz": "Asia/Jakarta",
+    "elev": 15
+   },
+   {
+    "name": "Sampang",
+    "slug": "sampang",
+    "lat": -7.1872,
+    "lon": 113.2394,
+    "tz": "Asia/Jakarta",
+    "elev": 5
+   },
+   {
+    "name": "Sangkapura",
+    "slug": "sangkapura",
+    "lat": -5.8453,
+    "lon": 112.6517,
+    "tz": "Asia/Jakarta",
+    "elev": 28
+   },
+   {
+    "name": "Sidoarjo",
+    "slug": "sidoarjo",
+    "lat": -7.4478,
+    "lon": 112.7183,
+    "tz": "Asia/Jakarta",
+    "elev": 5
+   },
+   {
+    "name": "Singosari",
+    "slug": "singosari",
+    "lat": -7.8924,
+    "lon": 112.6658,
+    "tz": "Asia/Jakarta",
+    "elev": 501
+   },
+   {
+    "name": "Situbondo",
+    "slug": "situbondo",
+    "lat": -7.7062,
+    "lon": 114.0098,
+    "tz": "Asia/Jakarta",
+    "elev": 36
+   },
+   {
+    "name": "Sumenep",
+    "slug": "sumenep",
+    "lat": -7.0115,
+    "lon": 113.8604,
+    "tz": "Asia/Jakarta",
+    "elev": 8
+   },
+   {
+    "name": "Surabaya",
+    "slug": "surabaya",
+    "lat": -7.2492,
+    "lon": 112.7508,
+    "tz": "Asia/Jakarta",
+    "elev": 8
+   },
+   {
+    "name": "Tuban",
+    "slug": "tuban",
+    "lat": -6.8976,
+    "lon": 112.0649,
+    "tz": "Asia/Jakarta",
+    "elev": 13
+   },
+   {
+    "name": "Tulangan Utara",
+    "slug": "tulangan-utara",
+    "lat": -7.4737,
+    "lon": 112.6505,
+    "tz": "Asia/Jakarta",
+    "elev": 8
+   },
+   {
+    "name": "Tulungagung",
+    "slug": "tulungagung",
+    "lat": -8.0657,
+    "lon": 111.9025,
+    "tz": "Asia/Jakarta",
+    "elev": 89
+   }
+  ]
+ },
+ {
+  "name": "Kalimantan Barat",
+  "places": [
+   {
+    "name": "Kota Sambas",
+    "slug": "kota-sambas",
+    "lat": 1.3626,
+    "lon": 109.3009,
+    "tz": "Asia/Ho_Chi_Minh",
+    "elev": 23
+   },
+   {
+    "name": "Pemangkat",
+    "slug": "pemangkat",
+    "lat": 1.1667,
+    "lon": 108.9667,
+    "tz": "Asia/Pontianak",
+    "elev": 1
+   },
+   {
+    "name": "Pontianak",
+    "slug": "pontianak",
+    "lat": -0.0319,
+    "lon": 109.325,
+    "tz": "Asia/Pontianak",
+    "elev": 2
+   },
+   {
+    "name": "Singkawang",
+    "slug": "singkawang",
+    "lat": 0.9093,
+    "lon": 108.9846,
+    "tz": "Asia/Pontianak",
+    "elev": 2
+   },
+   {
+    "name": "Sintang",
+    "slug": "sintang",
+    "lat": 0.0667,
+    "lon": 111.5,
+    "tz": "Asia/Pontianak",
+    "elev": 24
+   }
+  ]
+ },
+ {
+  "name": "Kalimantan Selatan",
+  "places": [
+   {
+    "name": "Amuntai",
+    "slug": "amuntai",
+    "lat": -2.4177,
+    "lon": 115.2494,
+    "tz": "Asia/Makassar",
+    "elev": 10
+   },
+   {
+    "name": "Banjarbaru",
+    "slug": "banjarbaru",
+    "lat": -3.4406,
+    "lon": 114.8365,
+    "tz": "Asia/Makassar",
+    "elev": 28
+   },
+   {
+    "name": "Banjarmasin",
+    "slug": "banjarmasin",
+    "lat": -3.3199,
+    "lon": 114.5907,
+    "tz": "Asia/Makassar",
+    "elev": 8
+   },
+   {
+    "name": "Barabai",
+    "slug": "barabai",
+    "lat": -2.5833,
+    "lon": 115.3833,
+    "tz": "Asia/Makassar",
+    "elev": 16
+   },
+   {
+    "name": "Martapura",
+    "slug": "martapura",
+    "lat": -3.4109,
+    "lon": 114.8642,
+    "tz": "Asia/Makassar",
+    "elev": 6
+   }
+  ]
+ },
+ {
+  "name": "Kalimantan Tengah",
+  "places": [
+   {
+    "name": "Palangkaraya",
+    "slug": "palangkaraya",
+    "lat": -2.2083,
+    "lon": 113.9167,
+    "tz": "Asia/Pontianak",
+    "elev": 16
+   },
+   {
+    "name": "Pangkalanbuun",
+    "slug": "pangkalanbuun",
+    "lat": -2.6832,
+    "lon": 111.6259,
+    "tz": "Asia/Pontianak",
+    "elev": 16
+   },
+   {
+    "name": "Sampit",
+    "slug": "sampit",
+    "lat": -2.5315,
+    "lon": 112.9496,
+    "tz": "Asia/Pontianak",
+    "elev": 5
+   }
+  ]
+ },
+ {
+  "name": "Kalimantan Timur",
+  "places": [
+   {
+    "name": "Balikpapan",
+    "slug": "balikpapan",
+    "lat": -1.2675,
+    "lon": 116.8289,
+    "tz": "Asia/Makassar",
+    "elev": 67
+   },
+   {
+    "name": "Bontang",
+    "slug": "bontang",
+    "lat": 0.1324,
+    "lon": 117.4854,
+    "tz": "Asia/Makassar",
+    "elev": 10
+   },
+   {
+    "name": "Loa Janan",
+    "slug": "loa-janan",
+    "lat": -0.5829,
+    "lon": 117.095,
+    "tz": "Asia/Makassar",
+    "elev": 9
+   },
+   {
+    "name": "Nusantara",
+    "slug": "nusantara",
+    "lat": -0.9731,
+    "lon": 116.7086,
+    "tz": "Asia/Makassar",
+    "elev": 48
+   },
+   {
+    "name": "Samarinda",
+    "slug": "samarinda",
+    "lat": -0.4917,
+    "lon": 117.1458,
+    "tz": "Asia/Makassar",
+    "elev": 24
+   }
+  ]
+ },
+ {
+  "name": "Kalimantan Utara",
+  "places": [
+   {
+    "name": "Nunukan",
+    "slug": "nunukan",
+    "lat": 4.1384,
+    "lon": 117.6507,
+    "tz": "Asia/Makassar",
+    "elev": 19
+   },
+   {
+    "name": "Tanjung Selor",
+    "slug": "tanjung-selor",
+    "lat": 2.8375,
+    "lon": 117.3653,
+    "tz": "Asia/Makassar",
+    "elev": 9
+   },
+   {
+    "name": "Tarakan",
+    "slug": "tarakan",
+    "lat": 3.3133,
+    "lon": 117.5915,
+    "tz": "Asia/Makassar",
+    "elev": 29
+   }
+  ]
+ },
+ {
+  "name": "Kepulauan Bangka Belitung",
+  "places": [
+   {
+    "name": "Pangkalpinang",
+    "slug": "pangkalpinang",
+    "lat": -2.1291,
+    "lon": 106.1138,
+    "tz": "Asia/Jakarta",
+    "elev": 10
+   },
+   {
+    "name": "Sungailiat",
+    "slug": "sungailiat",
+    "lat": -1.8544,
+    "lon": 106.1222,
+    "tz": "Asia/Jakarta",
+    "elev": 4
+   },
+   {
+    "name": "Tanjung Pandan",
+    "slug": "tanjung-pandan",
+    "lat": -2.7335,
+    "lon": 107.6348,
+    "tz": "Asia/Jakarta",
+    "elev": 8
+   }
+  ]
+ },
+ {
+  "name": "Kepulauan Riau",
+  "places": [
+   {
+    "name": "Tanjung Pinang",
+    "slug": "tanjung-pinang",
+    "lat": 0.9167,
+    "lon": 104.4583,
+    "tz": "Asia/Jakarta",
+    "elev": 39
+   }
+  ]
+ },
+ {
+  "name": "Lampung",
+  "places": [
+   {
+    "name": "Bandar Lampung",
+    "slug": "bandar-lampung",
+    "lat": -5.4292,
+    "lon": 105.2611,
+    "tz": "Asia/Jakarta",
+    "elev": 95
+   },
+   {
+    "name": "Metro",
+    "slug": "metro",
+    "lat": -5.1131,
+    "lon": 105.3067,
+    "tz": "Asia/Jakarta",
+    "elev": 62
+   },
+   {
+    "name": "Terbanggi Besar",
+    "slug": "terbanggi-besar",
+    "lat": -4.879,
+    "lon": 105.2182,
+    "tz": "Asia/Jakarta",
+    "elev": 29
+   }
+  ]
+ },
+ {
+  "name": "Maluku",
+  "places": [
+   {
+    "name": "Amahai",
+    "slug": "amahai",
+    "lat": -3.3398,
+    "lon": 128.9197,
+    "tz": "Asia/Jayapura",
+    "elev": 6
+   },
+   {
+    "name": "Ambon",
+    "slug": "ambon",
+    "lat": -3.6958,
+    "lon": 128.1833,
+    "tz": "Asia/Jayapura",
+    "elev": 12
+   },
+   {
+    "name": "Dobo",
+    "slug": "dobo",
+    "lat": -5.7609,
+    "lon": 134.234,
+    "tz": "Asia/Jayapura",
+    "elev": 5
+   },
+   {
+    "name": "Tual",
+    "slug": "tual",
+    "lat": -5.6288,
+    "lon": 132.7523,
+    "tz": "Asia/Jayapura",
+    "elev": 41
+   }
+  ]
+ },
+ {
+  "name": "Maluku Utara",
+  "places": [
+   {
+    "name": "Ternate",
+    "slug": "ternate",
+    "lat": 0.7906,
+    "lon": 127.3842,
+    "tz": "Asia/Jayapura",
+    "elev": 23
+   }
+  ]
+ },
+ {
+  "name": "Nusa Tenggara Barat",
+  "places": [
+   {
+    "name": "Bima",
+    "slug": "bima",
+    "lat": -8.4601,
+    "lon": 118.7267,
+    "tz": "Asia/Makassar",
+    "elev": 15
+   },
+   {
+    "name": "Dompu",
+    "slug": "dompu",
+    "lat": -8.5365,
+    "lon": 118.4634,
+    "tz": "Asia/Makassar",
+    "elev": 32
+   },
+   {
+    "name": "Mataram",
+    "slug": "mataram",
+    "lat": -8.5833,
+    "lon": 116.1167,
+    "tz": "Asia/Makassar",
+    "elev": 24
+   },
+   {
+    "name": "Selong",
+    "slug": "selong",
+    "lat": -8.6503,
+    "lon": 116.5318,
+    "tz": "Asia/Makassar",
+    "elev": 156
+   },
+   {
+    "name": "Sumbawa Besar",
+    "slug": "sumbawa-besar",
+    "lat": -8.4932,
+    "lon": 117.4202,
+    "tz": "Asia/Makassar",
+    "elev": 14
+   },
+   {
+    "name": "Taliwang",
+    "slug": "taliwang",
+    "lat": -8.7449,
+    "lon": 116.8532,
+    "tz": "Asia/Makassar",
+    "elev": 14
+   }
+  ]
+ },
+ {
+  "name": "Nusa Tenggara Timur",
+  "places": [
+   {
+    "name": "Atambua",
+    "slug": "atambua",
+    "lat": -9.1061,
+    "lon": 124.8925,
+    "tz": "Asia/Makassar",
+    "elev": 336
+   },
+   {
+    "name": "Ende",
+    "slug": "ende",
+    "lat": -8.8432,
+    "lon": 121.6623,
+    "tz": "Asia/Makassar",
+    "elev": 31
+   },
+   {
+    "name": "Kupang",
+    "slug": "kupang",
+    "lat": -10.1708,
+    "lon": 123.6069,
+    "tz": "Asia/Makassar",
+    "elev": 94
+   },
+   {
+    "name": "Labuan Bajo",
+    "slug": "labuan-bajo",
+    "lat": -8.4964,
+    "lon": 119.8877,
+    "tz": "Asia/Makassar",
+    "elev": 63
+   },
+   {
+    "name": "Maumere",
+    "slug": "maumere",
+    "lat": -8.6199,
+    "lon": 122.2111,
+    "tz": "Asia/Makassar",
+    "elev": 18
+   }
+  ]
+ },
+ {
+  "name": "Papua",
+  "places": [
+   {
+    "name": "Abepura",
+    "slug": "abepura",
+    "lat": -2.5964,
+    "lon": 140.6324,
+    "tz": "Asia/Jayapura",
+    "elev": 85
+   },
+   {
+    "name": "Jayapura",
+    "slug": "jayapura",
+    "lat": -2.5337,
+    "lon": 140.7181,
+    "tz": "Asia/Jayapura",
+    "elev": 11
+   }
+  ]
+ },
+ {
+  "name": "Papua Barat",
+  "places": [
+   {
+    "name": "Manokwari",
+    "slug": "manokwari",
+    "lat": -0.8629,
+    "lon": 134.064,
+    "tz": "Asia/Jayapura",
+    "elev": 15
+   }
+  ]
+ },
+ {
+  "name": "Papua Barat Daya",
+  "places": [
+   {
+    "name": "Sorong",
+    "slug": "sorong",
+    "lat": -0.8796,
+    "lon": 131.261,
+    "tz": "Asia/Jayapura",
+    "elev": 7
+   }
+  ]
+ },
+ {
+  "name": "Papua Pegunungan",
+  "places": [
+   {
+    "name": "Wamena",
+    "slug": "wamena",
+    "lat": -4.0958,
+    "lon": 138.9481,
+    "tz": "Asia/Jayapura",
+    "elev": 1488
+   }
+  ]
+ },
+ {
+  "name": "Papua Selatan",
+  "places": [
+   {
+    "name": "Merauke",
+    "slug": "merauke",
+    "lat": -8.4996,
+    "lon": 140.4061,
+    "tz": "Asia/Jayapura",
+    "elev": 8
+   }
+  ]
+ },
+ {
+  "name": "Papua Tengah",
+  "places": [
+   {
+    "name": "Nabire",
+    "slug": "nabire",
+    "lat": -3.3599,
+    "lon": 135.5007,
+    "tz": "Asia/Jayapura",
+    "elev": 8
+   },
+   {
+    "name": "Timika",
+    "slug": "timika",
+    "lat": -4.6141,
+    "lon": 136.6768,
+    "tz": "Asia/Jayapura",
+    "elev": 21
+   }
+  ]
+ },
+ {
+  "name": "Riau",
+  "places": [
+   {
+    "name": "Balai Pungut",
+    "slug": "balai-pungut",
+    "lat": 1.0595,
+    "lon": 101.2905,
+    "tz": "Asia/Jakarta",
+    "elev": 16
+   },
+   {
+    "name": "Batam",
+    "slug": "batam",
+    "lat": 1.1494,
+    "lon": 104.0249,
+    "tz": "Asia/Jakarta",
+    "elev": 38
+   },
+   {
+    "name": "Dumai",
+    "slug": "dumai",
+    "lat": 1.6671,
+    "lon": 101.4432,
+    "tz": "Asia/Jakarta",
+    "elev": 7
+   },
+   {
+    "name": "Pekanbaru",
+    "slug": "pekanbaru",
+    "lat": 0.5167,
+    "lon": 101.4417,
+    "tz": "Asia/Jakarta",
+    "elev": 19
+   }
+  ]
+ },
+ {
+  "name": "Sulawesi Barat",
+  "places": [
+   {
+    "name": "Majene",
+    "slug": "majene",
+    "lat": -3.5403,
+    "lon": 118.9707,
+    "tz": "Asia/Makassar",
+    "elev": 8
+   },
+   {
+    "name": "Polewali",
+    "slug": "polewali",
+    "lat": -3.4324,
+    "lon": 119.3435,
+    "tz": "Asia/Makassar",
+    "elev": 6
+   }
+  ]
+ },
+ {
+  "name": "Sulawesi Selatan",
+  "places": [
+   {
+    "name": "Galesong",
+    "slug": "galesong",
+    "lat": -5.3166,
+    "lon": 119.3661,
+    "tz": "Asia/Makassar",
+    "elev": 12
+   },
+   {
+    "name": "Makassar",
+    "slug": "makassar",
+    "lat": -5.1486,
+    "lon": 119.4319,
+    "tz": "Asia/Makassar",
+    "elev": 6
+   },
+   {
+    "name": "Palopo",
+    "slug": "palopo",
+    "lat": -2.9925,
+    "lon": 120.1969,
+    "tz": "Asia/Makassar",
+    "elev": 8
+   },
+   {
+    "name": "Parepare",
+    "slug": "parepare",
+    "lat": -4.0135,
+    "lon": 119.6255,
+    "tz": "Asia/Makassar",
+    "elev": 22
+   },
+   {
+    "name": "Sengkang",
+    "slug": "sengkang",
+    "lat": -4.1279,
+    "lon": 120.0297,
+    "tz": "Asia/Makassar",
+    "elev": 23
+   },
+   {
+    "name": "Watampone",
+    "slug": "watampone",
+    "lat": -4.5386,
+    "lon": 120.3279,
+    "tz": "Asia/Makassar",
+    "elev": 34
+   }
+  ]
+ },
+ {
+  "name": "Sulawesi Tengah",
+  "places": [
+   {
+    "name": "Palu",
+    "slug": "palu",
+    "lat": -0.9083,
+    "lon": 119.8708,
+    "tz": "Asia/Makassar",
+    "elev": 9
+   },
+   {
+    "name": "Toli-Toli",
+    "slug": "toli-toli",
+    "lat": 1.0402,
+    "lon": 120.8176,
+    "tz": "Asia/Makassar",
+    "elev": 327
+   }
+  ]
+ },
+ {
+  "name": "Sulawesi Tenggara",
+  "places": [
+   {
+    "name": "Baubau",
+    "slug": "baubau",
+    "lat": -5.4633,
+    "lon": 122.6024,
+    "tz": "Asia/Makassar",
+    "elev": 15
+   },
+   {
+    "name": "Kendari",
+    "slug": "kendari",
+    "lat": -3.9778,
+    "lon": 122.5151,
+    "tz": "Asia/Makassar",
+    "elev": 2
+   },
+   {
+    "name": "Raha",
+    "slug": "raha",
+    "lat": -4.838,
+    "lon": 122.7209,
+    "tz": "Asia/Makassar",
+    "elev": 19
+   }
+  ]
+ },
+ {
+  "name": "Sulawesi Utara",
+  "places": [
+   {
+    "name": "Bitung",
+    "slug": "bitung",
+    "lat": 1.4406,
+    "lon": 125.1282,
+    "tz": "Asia/Makassar",
+    "elev": 21
+   },
+   {
+    "name": "Kotamobagu",
+    "slug": "kotamobagu",
+    "lat": 0.7419,
+    "lon": 124.3121,
+    "tz": "Asia/Makassar",
+    "elev": 244
+   },
+   {
+    "name": "Manado",
+    "slug": "manado",
+    "lat": 1.4822,
+    "lon": 124.8489,
+    "tz": "Asia/Makassar",
+    "elev": 10
+   }
+  ]
+ },
+ {
+  "name": "Sumatera Barat",
+  "places": [
+   {
+    "name": "Bukittinggi",
+    "slug": "bukittinggi",
+    "lat": -0.3091,
+    "lon": 100.3705,
+    "tz": "Asia/Jakarta",
+    "elev": 927
+   },
+   {
+    "name": "Padang",
+    "slug": "padang",
+    "lat": -0.9492,
+    "lon": 100.3543,
+    "tz": "Asia/Jakarta",
+    "elev": 6
+   },
+   {
+    "name": "Padangpanjang",
+    "slug": "padangpanjang",
+    "lat": -0.456,
+    "lon": 100.4052,
+    "tz": "Asia/Jakarta",
+    "elev": 824
+   },
+   {
+    "name": "Pariaman",
+    "slug": "pariaman",
+    "lat": -0.619,
+    "lon": 100.12,
+    "tz": "Asia/Jakarta",
+    "elev": 4
+   },
+   {
+    "name": "Payakumbuh",
+    "slug": "payakumbuh",
+    "lat": -0.2159,
+    "lon": 100.6334,
+    "tz": "Asia/Jakarta",
+    "elev": 517
+   },
+   {
+    "name": "Solok",
+    "slug": "solok",
+    "lat": -0.8006,
+    "lon": 100.6571,
+    "tz": "Asia/Jakarta",
+    "elev": 392
+   }
+  ]
+ },
+ {
+  "name": "Sumatera Selatan",
+  "places": [
+   {
+    "name": "Baturaja",
+    "slug": "baturaja",
+    "lat": -4.1289,
+    "lon": 104.1669,
+    "tz": "Asia/Jakarta",
+    "elev": 69
+   },
+   {
+    "name": "Lahat",
+    "slug": "lahat",
+    "lat": -3.7851,
+    "lon": 103.5428,
+    "tz": "Asia/Jakarta",
+    "elev": 115
+   },
+   {
+    "name": "Lubuklinggau",
+    "slug": "lubuklinggau",
+    "lat": -3.2945,
+    "lon": 102.8614,
+    "tz": "Asia/Jakarta",
+    "elev": 140
+   },
+   {
+    "name": "Pagar Alam",
+    "slug": "pagar-alam",
+    "lat": -4.0251,
+    "lon": 103.2469,
+    "tz": "Asia/Jakarta",
+    "elev": 720
+   },
+   {
+    "name": "Palembang",
+    "slug": "palembang",
+    "lat": -2.9167,
+    "lon": 104.7458,
+    "tz": "Asia/Jakarta",
+    "elev": 5
+   },
+   {
+    "name": "Prabumulih",
+    "slug": "prabumulih",
+    "lat": -3.4345,
+    "lon": 104.2306,
+    "tz": "Asia/Jakarta",
+    "elev": 51
+   },
+   {
+    "name": "Tanjungagung",
+    "slug": "tanjungagung",
+    "lat": -3.9373,
+    "lon": 103.8046,
+    "tz": "Asia/Jakarta",
+    "elev": 129
+   }
+  ]
+ },
+ {
+  "name": "Sumatera Utara",
+  "places": [
+   {
+    "name": "Belawan",
+    "slug": "belawan",
+    "lat": 3.7755,
+    "lon": 98.6832,
+    "tz": "Asia/Jakarta",
+    "elev": 5
+   },
+   {
+    "name": "Binjai",
+    "slug": "binjai",
+    "lat": 3.6001,
+    "lon": 98.4854,
+    "tz": "Asia/Jakarta",
+    "elev": 34
+   },
+   {
+    "name": "Gunungsitoli",
+    "slug": "gunungsitoli",
+    "lat": 1.2888,
+    "lon": 97.6143,
+    "tz": "Asia/Jakarta",
+    "elev": 14
+   },
+   {
+    "name": "Kabanjahe",
+    "slug": "kabanjahe",
+    "lat": 3.1001,
+    "lon": 98.4908,
+    "tz": "Asia/Jakarta",
+    "elev": 1196
+   },
+   {
+    "name": "Kisaran",
+    "slug": "kisaran",
+    "lat": 2.9845,
+    "lon": 99.6158,
+    "tz": "Asia/Jakarta",
+    "elev": 20
+   },
+   {
+    "name": "Medan",
+    "slug": "medan",
+    "lat": 3.5833,
+    "lon": 98.6667,
+    "tz": "Asia/Jakarta",
+    "elev": 26
+   },
+   {
+    "name": "Padangsidempuan",
+    "slug": "padangsidempuan",
+    "lat": 1.3795,
+    "lon": 99.2715,
+    "tz": "Asia/Jakarta",
+    "elev": 310
+   },
+   {
+    "name": "Pematangsiantar",
+    "slug": "pematangsiantar",
+    "lat": 2.9595,
+    "lon": 99.0687,
+    "tz": "Asia/Jakarta",
+    "elev": 388
+   },
+   {
+    "name": "Perbaungan",
+    "slug": "perbaungan",
+    "lat": 3.5679,
+    "lon": 98.956,
+    "tz": "Asia/Jakarta",
+    "elev": 19
+   },
+   {
+    "name": "Percut",
+    "slug": "percut",
+    "lat": 3.6253,
+    "lon": 98.864,
+    "tz": "Asia/Jakarta",
+    "elev": 11
+   },
+   {
+    "name": "Rantauprapat",
+    "slug": "rantauprapat",
+    "lat": 2.1,
+    "lon": 99.8333,
+    "tz": "Asia/Jakarta",
+    "elev": 29
+   },
+   {
+    "name": "Sibolga",
+    "slug": "sibolga",
+    "lat": 1.7402,
+    "lon": 98.7812,
+    "tz": "Asia/Jakarta",
+    "elev": 6
+   },
+   {
+    "name": "Sidikalang",
+    "slug": "sidikalang",
+    "lat": 2.749,
+    "lon": 98.3127,
+    "tz": "Asia/Jakarta",
+    "elev": 1066
+   },
+   {
+    "name": "Sunggal",
+    "slug": "sunggal",
+    "lat": 3.5765,
+    "lon": 98.6151,
+    "tz": "Asia/Jakarta",
+    "elev": 32
+   },
+   {
+    "name": "Tanjungbalai",
+    "slug": "tanjungbalai",
+    "lat": 2.9667,
+    "lon": 99.8,
+    "tz": "Asia/Jakarta",
+    "elev": 4
+   },
+   {
+    "name": "Tebingtinggi",
+    "slug": "tebingtinggi",
+    "lat": 3.3285,
+    "lon": 99.1625,
+    "tz": "Asia/Jakarta",
+    "elev": 24
+   }
+  ]
+ }
+]

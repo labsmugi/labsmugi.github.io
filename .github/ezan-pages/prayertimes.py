@@ -26,6 +26,18 @@ METHODS = {
     "russia": (16, 15, None, None),
 }
 
+# Corrections that make a method follow an authority's published timetable (fitted with the
+# fit scripts against the official data): horizon angles for sunrise/sunset and offsets in seconds
+# (rounding and ihtiyat). Kemenag (Indonesia, via api.myquran.com, 12 cities x 2026): ~90% of times
+# to the minute, the rest 1 minute off; Kemenag also lowers the horizon for high cities (elevation).
+TUNING = {
+    "kemenag": {
+        "angles": {"gunes": 0.95, "aksam": 1.0},
+        "offsets": {"imsak": 180, "gunes": -135, "ogle": 240, "ikindi": 180, "aksam": 180, "yatsi": 180},
+        "elevation": True,
+    },
+}
+
 # Kemenag / JAKIM / MUIS publish a separate "Imsak" 10 minutes before Subuh (app: Ramadan.sahurEnd).
 SEPARATE_IMSAK = {"kemenag", "jakim", "muis"}
 
@@ -94,7 +106,8 @@ def _diyanet_solar(day, lat, asr_factor):
     return solar, DIYANET_OFFSETS
 
 
-def times(day: date, lat: float, lon: float, tz: str, method: str = "diyanet", hanafi_asr: bool = False):
+def times(day: date, lat: float, lon: float, tz: str, method: str = "diyanet", hanafi_asr: bool = False,
+          elevation: float = 0.0, tuned: bool = True):
     """The six times of `day` as timezone-aware datetimes, keyed by NAMES (plus "subuh" when the
     method has a separate Imsak: then "imsak" is Subuh - 10 min and "subuh" the Fajr time)."""
     fajr_angle, isha_angle, isha_interval, maghrib_angle = METHODS[method]
@@ -123,17 +136,21 @@ def times(day: date, lat: float, lon: float, tz: str, method: str = "diyanet", h
         angle = -_rtd(math.atan(1.0 / (asr_factor + math.tan(_dtr(abs(lat - decl))))))
         return sun_angle_time(angle, guess, False)
 
+    tuning = TUNING.get(method, {}) if tuned else {}
+    t_angles = tuning.get("angles", {})
+    # Horizon dip for cities well above the sea (Kemenag uses the city's height).
+    dip = 0.0347 * math.sqrt(elevation) if tuning.get("elevation") and elevation >= 300 else 0.0
     edge = 0.833
     solar = {}
     solar["ogle"] = mid_day(0.5)
-    solar["gunes"] = sun_angle_time(edge, 0.25, True)
-    maghrib = sun_angle_time(maghrib_angle if maghrib_angle is not None else edge, 0.75, False)
+    solar["gunes"] = sun_angle_time(t_angles.get("gunes", edge) + dip, 0.25, True)
+    maghrib = sun_angle_time(maghrib_angle if maghrib_angle is not None else t_angles.get("aksam", edge) + dip, 0.75, False)
     solar["aksam"] = maghrib
     solar["imsak"] = sun_angle_time(fajr_angle, 5.0 / 24.0, True)
     solar["yatsi"] = maghrib + isha_interval / 60.0 if isha_interval is not None else sun_angle_time(isha_angle, 18.0 / 24.0, False)
     solar["ikindi"] = asr_time(13.0 / 24.0)
 
-    temkin = {}
+    temkin = tuning.get("offsets", {})
     if method == "diyanet":
         solar, temkin = _diyanet_solar(day, lat, asr_factor)
     adjust = tz_hours - lon / 15.0
