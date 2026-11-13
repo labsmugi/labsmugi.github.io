@@ -3,3 +3,4 @@ Allow: /
 Disallow: /wordmill/play/embed/
 
 Sitemap: https://labsmugi.github.io/wordmill/play/sitemap.xml
+Sitemap: https://labsmugi.github.io/ezan/sitemap.xml
