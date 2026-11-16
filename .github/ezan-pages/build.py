@@ -6,6 +6,7 @@ Writes, under <root>/ezan/:
   <il>/index.html, <il>/<ilce>/index.html      this month's times, qibla, links
   <il>/ramazan-imsakiyesi-2027/index.html      Ramadan 2027 (also per district)
   ramazan-imsakiyesi-2027/index.html           all provinces' Ramadan pages
+  indir/index.html                             share link: redirects to the App Store / Play
   sitemap.xml
 
 Pages only change when the month changes, so the daily workflow commits about once a month; today's
@@ -28,6 +29,8 @@ from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
+
+import download  # noqa: E402
 from prayertimes import NAMES, hhmm, times  # noqa: E402
 import intl  # noqa: E402
 
@@ -377,6 +380,11 @@ def main():
 
     for result in intl.pages(first, stamp):
         emit(result)
+
+    # The app's share link (not in the sitemap: it only redirects to the stores).
+    dl_path, dl_html = download.page()
+    write(args.root, dl_path, dl_html)
+    wanted.add(dl_path.strip("/"))
 
     # After Ramadan 2027 is over the imsakiye pages stay up (they keep ranking for next year's
     # queries until RAMADAN_* above is moved to 2028).
