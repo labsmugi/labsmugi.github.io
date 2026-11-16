@@ -236,7 +236,7 @@ rubiconproject.com,12556,RESELLER,0bfd66d529a55807
 rubiconproject.com,13132,RESELLER,0bfd66d529a55807
 rubiconproject.com,13856,RESELLER,0bfd66d529a55807
 rubiconproject.com,14558,RESELLER,0bfd66d529a55807
-rubiconproject.com,15268,RESELLER
+rubiconproject.com, 15268, RESELLER, 0bfd66d529a55807
 rubiconproject.com,17608,RESELLER,0bfd66d529a55807
 rubiconproject.com,18202,RESELLER,0bfd66d529a55807
 rubiconproject.com,18364,RESELLER,0bfd66d529a55807
