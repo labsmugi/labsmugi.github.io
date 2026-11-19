@@ -1,0 +1,2 @@
+# Wordmill: words accepted in addition to the app's built-in list (one per line, lower case, as the game writes them).
+# The apps download this file; added words count as valid (Mill extra words, Ladder steps), never as targets.
