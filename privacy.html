@@ -79,6 +79,16 @@
      Konum izniyle aldığımız <em>hassas</em> konumunuz Firebase'e gönderilmez — o yalnızca
      cihazda hesaplama için kullanılır.</p>
 
+  <h2>Kur'an tilaveti ve ek içerik</h2>
+  <p>Kur'an tilaveti (ses), Mushaf sayfaları, kelime anlamları, tefsir ve ek mealler (ör. Diyanet meali)
+     <strong>Quran Foundation (Quran.com)</strong> kaynaklıdır ve internet üzerinden yüklenir. Ses dosyaları
+     doğrudan Quran Foundation sunucularından çalınır; indirdiğiniz sûreler yalnızca cihazınızda saklanır.
+     Metin içerikleri bizim Firebase veritabanımızdan alınır; bunun için hesap açılmaz, uygulama
+     <strong>Firebase Authentication</strong> ile rastgele, isimsiz bir kullanıcı kimliği alır (30 gün kullanılmazsa
+     otomatik silinir). Bu kimlik yalnızca içeriğe erişim için kullanılır, adınız veya e-postanızla
+     ilişkilendirilmez. Kötüye kullanımı önlemek için <strong>Firebase App Check</strong> (iOS'ta Apple App Attest,
+     Android'de Google Play Integrity) uygulamanın gerçek olduğunu doğrular; bu doğrulama kişisel veri içermez.</p>
+
   <h2>Bağış</h2>
   <p>İsteğe bağlı bağışlar iOS'ta Apple App Store, Android'de Google Play üzerinden yapılır.
      Ödeme bilgileriniz bu platformlarca işlenir; bize kart veya kimlik bilgisi ulaşmaz.</p>
@@ -98,7 +108,13 @@
 
   <h1>Privacy Policy (EN)</h1>
   <p>Applies to the iOS and Android apps. Ezan Vakti has <strong>no ads, no accounts and collects no personally identifying data</strong>.
-     All content works on-device. We use Google Firebase (Analytics and Crashlytics; on iOS also
+     Most content works on-device. Quran recitation audio, Mushaf pages, word meanings, tafsir and extra
+     translations come from <strong>Quran Foundation (Quran.com)</strong> over the internet: audio streams from their
+     servers (surahs you download stay on your device), and text content is read from our Firebase database
+     using a random anonymous Firebase Authentication user ID (no account; deleted after 30 days unused), used
+     only to access that content and not linked to your identity. Firebase App Check (Apple App Attest on iOS,
+     Google Play Integrity on Android) verifies requests come from the genuine app and involves no personal data.
+     We use Google Firebase (Analytics and Crashlytics; on iOS also
      Performance and Remote Config) to collect <em>anonymous</em> usage and crash data: a random app-instance ID,
      which screens are opened, device model and OS version, approximate city-level location derived
      from IP, crash logs and performance metrics. None of it is linked to your identity, used for
