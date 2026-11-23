@@ -54,11 +54,20 @@
   <ul>
     <li>Seçtiğiniz takma ad ve emoji avatar</li>
     <li>Kurduğunuz ligin adı ve katıldığınız liglerin üye listesi</li>
-    <li>Her gün için günlük puanınız (0–15) ve bulmaca dili</li>
+    <li>Her gün için lig puanınız ve bulmaca dili</li>
+    <li>Biten haftaların özeti (üyelerin haftalık toplam puanları)</li>
   </ul>
   <p>Bu bilgileri yalnızca aynı ligin üyeleri görebilir; reklam için kullanılmaz. İstediğiniz zaman uygulamada
      <em>Ligler → profil → Lig verilerimi sil</em> ile ligden ayrılıp takma adınızı, puanlarınızı ve anonim
      kimliğinizi silebilirsiniz. Lig kurucusu ligi sildiğinde ligin tüm puanları da silinir.</p>
+
+  <h2>Haftalık bölümlü lig (isteğe bağlı)</h2>
+  <p><em>Haftalık lige katıl</em>'a dokunursanız takma adınız, emoji avatarınız, bulmaca diliniz ve günlük lig
+     puanlarınız Firestore'da saklanır ve her hafta aynı dili oynayan yaklaşık 30 oyuncudan oluşan odanızdaki
+     oyuncular tarafından görülür (bu oyuncular tanımadığınız kişiler olabilir). Haftalık sıralamanız ve bölümünüz
+     sunucumuzda hesaplanır. Uygunsuz takma adlar otomatik olarak ve diğer oyuncuların bildirimiyle gizlenir;
+     bir oyuncunun adını bildirdiğinizde bildirim sizin anonim kimliğinizle kaydedilir. Bu veriler reklam için
+     kullanılmaz; <em>Lig verilerimi sil</em> bölümlü lig kaydınızı ve oda puanlarınızı da siler.</p>
 
   <h2>Kullanım istatistikleri ve çökme raporları (Firebase)</h2>
   <p>Uygulamayı iyileştirmek için Google'ın Firebase Analytics ve Firebase Crashlytics hizmetlerini kullanırız.
@@ -116,10 +125,15 @@
   <p>Wordmill has no accounts and does not ask for your name, email or location. Your game
      progress stays on your device. Friend leagues are optional: if you join or create one, the app creates an
      anonymous Firebase ID (no email or phone) and stores your chosen nickname and emoji, your leagues' names and
-     member lists, and your daily score (0–15) and puzzle language in Google Cloud Firestore. Only members of the
+     member lists, and your daily league points and puzzle language in Google Cloud Firestore. Only members of the
      same league can see them; they are not used for advertising. Delete them any time in Leagues → profile →
-     Delete my league data. <strong>Game Center leaderboards (iOS, optional):</strong> your scores (best streak,
-     Journey levels solved and weekly points per puzzle language) are sent to Apple Game Center's global
+     Delete my league data. <strong>Weekly divisions (optional):</strong> if you tap Join the weekly division, your
+     nickname, emoji, puzzle language and daily league points are stored in Firestore and shown to the players of
+     your weekly room (about 30 players of the same puzzle language, who may be strangers); your place and division
+     are computed on our server. Offensive nicknames are hidden automatically or after reports by other players (a
+     report is stored with your anonymous ID). Delete my league data also removes your division entry and room
+     scores. <strong>Game Center leaderboards (iOS, optional):</strong> your scores (best streak,
+     Journey levels solved, weekly points per puzzle language and in total) are sent to Apple Game Center's global
      leaderboards <strong>only if you agree</strong> — the app asks before the first upload, and you can change it any
      time in Settings → Game Center → Share scores on Game Center. If you agree, your scores and Game Center nickname
      are sent to Apple and shown to other players on the leaderboards; Apple processes them under its
